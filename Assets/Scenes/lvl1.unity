@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 173573095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &173573098
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 173573095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &173573099
@@ -2129,11 +2129,10 @@ Transform:
   m_LocalPosition: {x: -42.273857, y: 6.377136, z: -65.163414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 725775956}
   - {fileID: 1553921640}
   - {fileID: 1593609832}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &538034736
 GameObject:
@@ -2328,7 +2327,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 580215224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &580215227
@@ -2340,7 +2339,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 580215224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &580215228
@@ -2674,7 +2673,7 @@ GameObject:
   - component: {fileID: 625653574}
   - component: {fileID: 625653573}
   m_Layer: 9
-  m_Name: Stairs 02
+  m_Name: Stairs02
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2703,7 +2702,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 625653572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &625653575
@@ -2715,7 +2714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 625653572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &625653576
@@ -3203,8 +3202,8 @@ RectTransform:
   m_Children:
   - {fileID: 230063486}
   - {fileID: 659280187}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 725775956}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3385,7 +3384,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 514035630}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_Name
@@ -3401,15 +3400,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1553955
+      value: -43.42926
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.377136
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.040257
+      value: -46.123158
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3429,7 +3428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4319b3b84e956949856bc6efca65afd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3731,7 +3730,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 813083407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &813083410
@@ -3743,7 +3742,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 813083407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &813083411
@@ -5023,7 +5022,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1394687326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1394687329
@@ -5035,7 +5034,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1394687326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1394687330
@@ -5234,7 +5233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1471697684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1471697687
@@ -5246,7 +5245,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1471697684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1471697688
