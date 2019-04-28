@@ -5,12 +5,13 @@ using UnityEngine.UI;
 
 public class fixing : MonoBehaviour
 {
-   // public TextAlignment repairing;
+    public Text repairing;
 
     public Image repairButton;
 
     void Start()
     {
+        repairing.gameObject.SetActive(false);
         repairButton.gameObject.SetActive(false);
     }
     // Update is called once per frame
@@ -23,13 +24,14 @@ public class fixing : MonoBehaviour
     {
         if (other.gameObject.CompareTag("repair"))
         {
+            repairing.gameObject.SetActive(true);
             repairButton.gameObject.SetActive(true);
         }
     }
 
     void OnTriggerExit(Collider other)
     {
+        repairing.gameObject.SetActive(false);
         repairButton.gameObject.SetActive(false);
-
     }
 }
