@@ -6,43 +6,50 @@ using UnityEngine.UI;
 public class fixing : MonoBehaviour
 {
 
-    public Text repairing;
-    public Image repairButton;
+    public Text repairText;
+    public Image repairBar;
+    public Image filling;
     private float repair;
     private float maxrepair;
+    bool inEvent;
 
     void Start()
     {
         repair = 0f;
         maxrepair = 100f;
-        repairing.gameObject.SetActive(false);
-        repairButton.gameObject.SetActive(false);
+        filling.gameObject.SetActive(false);
+        repairText.gameObject.SetActive(false);
+        repairBar.gameObject.SetActive(false);
+        
     }
     // Update is called once per frame
     void Update()
     {
-       
+        if (Input.GetButton("Fire1") && inEvent == true)
+        {
+          //  repair += Time.deltaTime;
+            Debug.Log("HIII");
+            repairText.text = repair.ToString();
+            repairBar.fillAmount = repair / maxrepair;
+            repair += 10;
+        }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("repair"))
+        if (other.gameObject.tag == "repair")
         {
-            repairing.gameObject.SetActive(true);
-            repairButton.gameObject.SetActive(true);
-
-            if (Input.GetButton("Fire1"))
-            {
-                repair += Time.deltaTime;
-                Debug.Log("HIII");
-            }
+            inEvent = true;
+            repairText.gameObject.SetActive(true);
+            repairBar.gameObject.SetActive(true);
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        repairing.gameObject.SetActive(false);
-        repairButton.gameObject.SetActive(false);
+        inEvent = false;
+        repairText.gameObject.SetActive(false);
+        repairBar.gameObject.SetActive(false);
     }
 
     void fill()
