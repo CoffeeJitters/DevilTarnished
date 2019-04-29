@@ -25,13 +25,19 @@ public class fixing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && inEvent == true)
+        if (Input.GetButton("Fire1") && inEvent == true && repair < 101)
         {
-          //  repair += Time.deltaTime;
             Debug.Log("HIII");
-            repairText.text = repair.ToString();
-            repairBar.fillAmount = repair / maxrepair;
-            repair += 10;
+            filling.fillAmount = repair / maxrepair;
+            repair += 1;
+        }
+        if (inEvent == true && !(Input.GetButton("Fire1")))
+        {
+            if (repair < 100)
+            {
+                repair = 0;
+                filling.fillAmount = 0;
+            }
         }
     }
 
@@ -42,6 +48,7 @@ public class fixing : MonoBehaviour
             inEvent = true;
             repairText.gameObject.SetActive(true);
             repairBar.gameObject.SetActive(true);
+            filling.gameObject.SetActive(true);
         }
     }
 
@@ -55,5 +62,13 @@ public class fixing : MonoBehaviour
     void fill()
     {
         Debug.Log("HIII");
+    }
+
+    void reset()
+    {
+        if (repair != 101)
+        {
+            repair = 0;
+        }
     }
 }

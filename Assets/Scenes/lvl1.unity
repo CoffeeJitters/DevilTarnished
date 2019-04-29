@@ -2197,7 +2197,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -3499,7 +3499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400172, guid: 97f89c83fcacb004a8439678dad5f314, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.63
+      value: -43.19
       objectReference: {fileID: 0}
     - target: {fileID: 400172, guid: 97f89c83fcacb004a8439678dad5f314, type: 3}
       propertyPath: m_LocalPosition.y
