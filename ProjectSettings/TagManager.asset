@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
-  - repair
+  - repair2
+  - repair3
+  - repair1
   layers:
   - Default
   - TransparentFX
