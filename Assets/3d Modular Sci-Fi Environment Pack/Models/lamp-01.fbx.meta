@@ -1,42 +1,29 @@
 fileFormatVersion: 2
 guid: a60f7a396f02c974f828c61ce1714742
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lamp-01-lamp
+    400000: //RootNode
+    400002: lamp-01-lamp
+    2300000: //RootNode
+    2300002: lamp-01-lamp
+    3300000: //RootNode
+    3300002: lamp-01-lamp
+    4300000: lamp-01
+    4300002: lamp-01-lamp
+  externalObjects:
   - first:
-      1: 100000
-    second: //RootNode
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue2s
+    second: {fileID: 2100000, guid: 45a767f5576cb794f9610f3123ca8a59, type: 2}
   - first:
-      1: 100002
-    second: lamp-01-lamp
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: lamp-01-lamp
-  - first:
-      23: 2300000
-    second: //RootNode
-  - first:
-      23: 2300002
-    second: lamp-01-lamp
-  - first:
-      33: 3300000
-    second: //RootNode
-  - first:
-      33: 3300002
-    second: lamp-01-lamp
-  - first:
-      43: 4300000
-    second: lamp-01
-  - first:
-      43: 4300002
-    second: lamp-01-lamp
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light1s
+    second: {fileID: 2100000, guid: 09665363ab469724b9f2b7d055617821, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -78,19 +65,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,11 +85,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -113,7 +98,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

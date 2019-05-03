@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - repair
+  - Waypoint
   layers:
   - Default
   - TransparentFX

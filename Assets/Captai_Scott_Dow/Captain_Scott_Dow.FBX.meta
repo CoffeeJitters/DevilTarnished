@@ -13,7 +13,7 @@ labels:
 - Astro
 - Sci fi
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Bip01
     100002: Bip01 back_center_Wmount
@@ -507,25 +507,103 @@ ModelImporter:
     13700020: Captain_Helmet
     13700022: Captain_shoulders
     13700024: Captain_Shoulders_B
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Captain_Armor_A
+    second: {fileID: 2100000, guid: df02d055bc486cd498416bf5b266bebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Captain_Hair
+    second: {fileID: 2100000, guid: 05ac216ae01a1c649b3c60735e5c3c02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Captain_clothes_A
+    second: {fileID: 2100000, guid: fa2aeec5fdc561548b5c66fef9147ea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Captain_eyes
+    second: {fileID: 2100000, guid: 7a66d7c7eeae08e409d9568de0a43e5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jetpack
+    second: {fileID: 2100000, guid: 6bdc5d9ee1477e947b848c1b69ab0167, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battle_suite_B
+    second: {fileID: 2100000, guid: d924aa5acff1f8246b6e719c165ec732, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bullet
+    second: {fileID: 2100000, guid: 3e710e181225c6c4899ed5cdb68bfad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: captain_armor_B
+    second: {fileID: 2100000, guid: a396d918b93fb23488b108c06383c62a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_glass
+    second: {fileID: 2100000, guid: 5e4bbc0004ae9644ba49935b40d3649e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orig_Captain_body
+    second: {fileID: 2100000, guid: fccead7166101e045b60c93560b6add6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steam_gun_A
+    second: {fileID: 2100000, guid: d17f704174dae814e9144f16a3fb2365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steam_sword_A
+    second: {fileID: 2100000, guid: 36a1fba132b69e04b9b1b7d78b3c03f7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Captain_Scott_Dow' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bip01 Spine' has translation animation that
+      will be discarded.\n\t'Bip01 Spine1' has translation animation that will be
+      discarded.\n\t'Bip01 L ForeTwist1' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bip01 R ForeTwist1' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bip01
+      Rhand_Weapon' has translation animation that will be discarded.\n\t'Bip01 Rhand_Weapon'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'sr_barrel02'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Captain_S_IDLE
@@ -537,6 +615,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -553,6 +632,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_arm_kick_right
       takeName: 
@@ -563,6 +643,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -579,6 +660,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_boring
       takeName: 
@@ -589,6 +671,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -605,6 +688,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Drinking
       takeName: 
@@ -615,6 +699,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -631,6 +716,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Eating
       takeName: 
@@ -641,6 +727,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -657,6 +744,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Explanation
       takeName: 
@@ -667,6 +755,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -683,6 +772,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Jump_standing
       takeName: 
@@ -693,6 +783,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -709,6 +800,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_looking_around
       takeName: 
@@ -719,6 +811,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -735,6 +828,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Pick_object
       takeName: 
@@ -745,6 +839,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -761,6 +856,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_pointing_A
       takeName: 
@@ -771,6 +867,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -787,6 +884,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_salute
       takeName: 
@@ -797,6 +895,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -813,6 +912,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Say_No
       takeName: 
@@ -823,6 +923,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -839,6 +940,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Shrugs
       takeName: 
@@ -849,6 +951,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -865,6 +968,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_sit_down
       takeName: 
@@ -875,6 +979,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -891,6 +996,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Sitting
       takeName: 
@@ -901,6 +1007,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -917,6 +1024,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Came_up
       takeName: 
@@ -927,6 +1035,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -943,6 +1052,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Talking
       takeName: 
@@ -953,6 +1063,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -969,6 +1080,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Talking_B
       takeName: 
@@ -979,6 +1091,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -995,6 +1108,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_Use_object
       takeName: 
@@ -1005,6 +1119,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1021,6 +1136,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_warning
       takeName: 
@@ -1031,6 +1147,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1047,6 +1164,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_S_waving
       takeName: 
@@ -1057,6 +1175,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1073,6 +1192,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Climbing_abyss_idle
       takeName: 
@@ -1083,6 +1203,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1099,6 +1220,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Climbing_abyss_left
       takeName: 
@@ -1109,6 +1231,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1125,6 +1248,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Climbing_abyss_right
       takeName: 
@@ -1135,6 +1259,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1151,6 +1276,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Climbing_ladder_down
       takeName: 
@@ -1161,6 +1287,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1177,6 +1304,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Climbing_ladder_up
       takeName: 
@@ -1187,6 +1315,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1203,6 +1332,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Climbing_rope
       takeName: 
@@ -1213,6 +1343,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1229,6 +1360,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_falling_down
       takeName: 
@@ -1239,6 +1371,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1255,6 +1388,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_fly_forward
       takeName: 
@@ -1265,6 +1399,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1281,16 +1416,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_fly_left
       takeName: 
       firstFrame: 1842
-      lastFrame: 1941.99988
+      lastFrame: 1941.9999
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1307,16 +1444,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_fly_right
       takeName: 
       firstFrame: 1947
-      lastFrame: 2046.99988
+      lastFrame: 2046.9999
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1333,6 +1472,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_making_item
       takeName: 
@@ -1343,6 +1483,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1359,6 +1500,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Moving_left
       takeName: 
@@ -1369,6 +1511,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1385,6 +1528,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Moving_right
       takeName: 
@@ -1395,6 +1539,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1411,6 +1556,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_sleeping
       takeName: 
@@ -1421,6 +1567,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1437,6 +1584,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Sneaking
       takeName: 
@@ -1447,6 +1595,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1463,6 +1612,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_M_Swimming
       takeName: 
@@ -1473,6 +1623,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1489,6 +1640,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Puting_Weapons_back
       takeName: 
@@ -1499,6 +1651,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1515,6 +1668,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Taking_weapons_out
       takeName: 
@@ -1525,6 +1679,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1541,6 +1696,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_COMBAT_mode_staynig
       takeName: 
@@ -1551,6 +1707,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1567,6 +1724,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_FromStand_toSquat_A
       takeName: 
@@ -1577,6 +1735,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1593,6 +1752,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_COMBAT_mode_squat
       takeName: 
@@ -1603,6 +1763,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1619,6 +1780,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_fire_Squat
       takeName: 
@@ -1629,6 +1791,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1645,6 +1808,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_lookingAround_Squat
       takeName: 
@@ -1655,6 +1819,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1671,6 +1836,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Reload_squat
       takeName: 
@@ -1681,6 +1847,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1697,6 +1864,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_FromSquatA_toStaing
       takeName: 
@@ -1707,6 +1875,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1723,6 +1892,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_dodge_to_left
       takeName: 
@@ -1733,6 +1903,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1749,6 +1920,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_dodge_to_right
       takeName: 
@@ -1759,6 +1931,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1775,6 +1948,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_duck_below_high_swing
       takeName: 
@@ -1785,6 +1959,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1801,6 +1976,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Hit_from_back
       takeName: 
@@ -1811,6 +1987,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1827,6 +2004,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Hit_from_front
       takeName: 
@@ -1837,6 +2015,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1853,6 +2032,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Hit_from_left
       takeName: 
@@ -1863,6 +2043,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1879,6 +2060,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Hit_from_righ
       takeName: 
@@ -1889,6 +2071,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1905,6 +2088,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_parry_from_stright_down
       takeName: 
@@ -1915,6 +2099,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1931,6 +2116,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_parry_high_left
       takeName: 
@@ -1941,6 +2127,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1957,6 +2144,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_parry_mid_front
       takeName: 
@@ -1967,6 +2155,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1983,6 +2172,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_swing_high_left
       takeName: 
@@ -1993,6 +2183,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2009,6 +2200,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_swing_high_right
       takeName: 
@@ -2019,6 +2211,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2035,6 +2228,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_swing_high_straight_down
       takeName: 
@@ -2045,6 +2239,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2061,6 +2256,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_swing_low_left
       takeName: 
@@ -2071,6 +2267,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2087,6 +2284,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_swing_low_right
       takeName: 
@@ -2097,6 +2295,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2113,6 +2312,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_thrust_high
       takeName: 
@@ -2123,6 +2323,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2139,6 +2340,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_thrust_low
       takeName: 
@@ -2149,6 +2351,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2165,6 +2368,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_L_thrust_mid
       takeName: 
@@ -2175,6 +2379,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2191,6 +2396,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_LeftFoot_Kick
       takeName: 
@@ -2201,6 +2407,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2217,6 +2424,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Looking_around_staying
       takeName: 
@@ -2227,6 +2435,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2243,6 +2452,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_RightFoot_kick
       takeName: 
@@ -2253,6 +2463,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2269,6 +2480,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_fire_staying
       takeName: 
@@ -2279,6 +2491,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2295,6 +2508,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Reload_gun_staying
       takeName: 
@@ -2305,6 +2519,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2321,6 +2536,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Knocked_backward
       takeName: 
@@ -2331,6 +2547,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2347,6 +2564,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Down_back
       takeName: 
@@ -2357,6 +2575,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2373,6 +2592,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Recover_from_knocked_backward
       takeName: 
@@ -2383,6 +2603,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2399,16 +2620,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Knocked_forward
       takeName: 
-      firstFrame: 3849.99976
+      firstFrame: 3849.9998
       lastFrame: 3878
       wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2425,6 +2648,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Down_forward
       takeName: 
@@ -2435,6 +2659,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2451,16 +2676,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_F_Recover_from_knocked_forward
       takeName: 
-      firstFrame: 3920.00024
+      firstFrame: 3920.0002
       lastFrame: 3952
       wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2477,16 +2704,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Casual_walk
       takeName: 
-      firstFrame: 3956.99976
-      lastFrame: 3993.00024
+      firstFrame: 3956.9998
+      lastFrame: 3993.0002
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2503,16 +2732,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Cautious_walk
       takeName: 
       firstFrame: 3998
-      lastFrame: 4038.00024
+      lastFrame: 4038.0002
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2529,16 +2760,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Fire_walk
       takeName: 
       firstFrame: 4043
-      lastFrame: 4083.00024
+      lastFrame: 4083.0002
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2555,6 +2788,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Combat_run
       takeName: 
@@ -2565,6 +2799,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2581,6 +2816,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Fire_run
       takeName: 
@@ -2591,6 +2827,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2607,6 +2844,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_run
       takeName: 
@@ -2617,6 +2855,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2633,6 +2872,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Jump_runing
       takeName: 
@@ -2643,6 +2883,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2659,6 +2900,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Fire_walking_back
       takeName: 
@@ -2669,6 +2911,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2685,6 +2928,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Walking_back
       takeName: 
@@ -2695,6 +2939,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -2711,6 +2956,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Die_knocked_backward
       takeName: 
@@ -2721,6 +2967,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2737,6 +2984,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Die_knocked_forward
       takeName: 
@@ -2747,6 +2995,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2763,6 +3012,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Die_on_back
       takeName: 
@@ -2773,6 +3023,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2789,6 +3040,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Die_on_belt
       takeName: 
@@ -2799,6 +3051,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2815,6 +3068,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Captain_FM_Die_squat
       takeName: 
@@ -2825,6 +3079,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2841,6 +3096,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Casual_walk
       takeName: Captain_Scott_Dow
@@ -2851,6 +3107,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -3178,6 +3435,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Cautious_walk
       takeName: Captain_Scott_Dow
@@ -3188,6 +3446,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -3515,6 +3774,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Combat_run
       takeName: Captain_Scott_Dow
@@ -3525,6 +3785,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -3852,6 +4113,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Die_knocked_backward
       takeName: Captain_Scott_Dow
@@ -3862,6 +4124,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -4189,6 +4452,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Die_knocked_forward
       takeName: Captain_Scott_Dow
@@ -4199,6 +4463,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -4526,6 +4791,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Fire_run
       takeName: Captain_Scott_Dow
@@ -4536,6 +4802,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -4863,6 +5130,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Fire_walk
       takeName: Captain_Scott_Dow
@@ -4873,6 +5141,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -5200,6 +5469,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Fire_walking_back
       takeName: Captain_Scott_Dow
@@ -5210,6 +5480,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -5537,6 +5808,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Jump_runing
       takeName: Captain_Scott_Dow
@@ -5547,6 +5819,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -5874,6 +6147,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_run
       takeName: Captain_Scott_Dow
@@ -5884,6 +6158,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -6211,6 +6486,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_FM_Walking_back
       takeName: Captain_Scott_Dow
@@ -6221,6 +6497,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -6548,6 +6825,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_abyss_left
       takeName: Captain_Scott_Dow
@@ -6558,6 +6836,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -6885,6 +7164,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_abyss_right
       takeName: Captain_Scott_Dow
@@ -6895,6 +7175,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7222,6 +7503,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_ladder_down
       takeName: Captain_Scott_Dow
@@ -7232,6 +7514,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7559,6 +7842,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_ladder_up
       takeName: Captain_Scott_Dow
@@ -7569,6 +7853,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7896,6 +8181,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_rope
       takeName: Captain_Scott_Dow
@@ -7906,6 +8192,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -8233,6 +8520,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Moving_left
       takeName: Captain_Scott_Dow
@@ -8243,6 +8531,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -8570,6 +8859,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Moving_right
       takeName: Captain_Scott_Dow
@@ -8580,6 +8870,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -8907,6 +9198,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Sneaking
       takeName: Captain_Scott_Dow
@@ -8917,6 +9209,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -9244,6 +9537,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_M_Swimming
       takeName: Captain_Scott_Dow
@@ -9254,6 +9548,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -9581,6 +9876,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_F_Knocked_forward
       takeName: Captain_Scott_Dow
@@ -9591,6 +9887,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -9918,6 +10215,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RM_Captain_F_Knocked_backward
       takeName: Captain_Scott_Dow
@@ -9928,6 +10226,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -10255,32 +10554,45 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human:
     - boneName: Bip01 Pelvis
       humanName: Hips
@@ -10716,595 +11028,609 @@ ModelImporter:
         modified: 0
     skeleton:
     - name: Captain_Scott_Dow(Clone)
+      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01
-      position: {x: -.0596125014, y: 1.08402121, z: -.0511536598}
-      rotation: {x: -.489404321, y: .50986129, z: .508536339, w: .491849363}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0596125, y: 1.0840212, z: -0.05115366}
+      rotation: {x: -0.48940432, y: 0.5098613, z: 0.50853634, w: 0.49184936}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: Bip01 Pelvis
-      position: {x: -.0783076063, y: -.0565730967, z: .0450866818}
-      rotation: {x: -.491288543, y: .510421991, z: .489963651, w: .50797689}
-      scale: {x: 1.00000012, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.07830761, y: -0.056573097, z: 0.04508668}
+      rotation: {x: -0.49128854, y: 0.510422, z: 0.48996365, w: 0.5079769}
+      scale: {x: 1.0000001, y: 1, z: 1}
     - name: Bip01 L Thigh
-      position: {x: -4.15094625e-09, y: 1.41739719e-07, z: .128787935}
-      rotation: {x: .018118469, y: -.999790072, z: .000369266374, w: -.0095681157}
-      scale: {x: .999999285, y: 1.00000024, z: .999999583}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0000000041509463, y: 0.00000014173972, z: 0.12878793}
+      rotation: {x: 0.018118469, y: -0.9997901, z: 0.00036926637, w: -0.009568116}
+      scale: {x: 0.9999993, y: 1.0000002, z: 0.9999996}
     - name: Bip01 L Calf
-      position: {x: -.511636853, y: 1.70651319e-07, z: -1.69002377e-07}
-      rotation: {x: 2.74684786e-09, y: 1.50761359e-08, z: .0884779319, w: .996078193}
-      scale: {x: .999999464, y: 1.0000006, z: 1.00000107}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.51163685, y: 0.00000017065132, z: -0.00000016900238}
+      rotation: {x: 0.0000000027468479, y: 0.000000015076136, z: 0.08847793, w: 0.9960782}
+      scale: {x: 0.99999946, y: 1.0000006, z: 1.0000011}
     - name: Bip01 L Foot
-      position: {x: -.501552463, y: 2.04808934e-08, z: -3.99999465e-08}
-      rotation: {x: .000479433453, y: .00956322532, z: -.0704119056, w: .997472107}
-      scale: {x: 1.00000036, y: .999999523, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.50155246, y: 0.000000020480893, z: -0.000000039999946}
+      rotation: {x: 0.00047943345, y: 0.009563225, z: -0.070411906, w: 0.9974721}
+      scale: {x: 1.0000004, y: 0.9999995, z: 0.99999976}
     - name: Bip01 L Toe0
-      position: {x: -.0888182297, y: .180874571, z: -4.5431463e-08}
-      rotation: {x: 5.05601236e-07, y: 4.6377599e-07, z: -.707106829, w: .707106769}
-      scale: {x: 1.0000006, y: 1.00000024, z: 1.00000072}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.08881823, y: 0.18087457, z: -0.000000045431463}
+      rotation: {x: 0.00000050560124, y: 0.000000463776, z: -0.7071068, w: 0.70710677}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000007}
     - name: Bip01 left_Wmount
-      position: {x: .0287243649, y: .0630661398, z: .23343496}
-      rotation: {x: -.0260817055, y: -.0305608269, z: .903821647, w: .426019073}
-      scale: {x: 1.00000012, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.028724365, y: 0.06306614, z: 0.23343496}
+      rotation: {x: -0.026081705, y: -0.030560827, z: 0.90382165, w: 0.42601907}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
     - name: steam_sword
-      position: {x: -.000677490199, y: .000645675638, z: .010216522}
-      rotation: {x: .588219941, y: -.406185418, z: .564250469, w: -.413076431}
-      scale: {x: .949999928, y: .94999975, z: .949999928}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0006774902, y: 0.00064567564, z: 0.010216522}
+      rotation: {x: 0.58821994, y: -0.40618542, z: 0.56425047, w: -0.41307643}
+      scale: {x: 0.9499999, y: 0.94999975, z: 0.9499999}
     - name: st_blade_01
-      position: {x: -.000815048174, y: .00102577207, z: -.00858230609}
-      rotation: {x: -7.4505806e-09, y: 2.98023224e-08, z: 2.22044605e-16, w: 1}
+      parentName: 
+      position: {x: -0.0008150482, y: 0.0010257721, z: -0.008582306}
+      rotation: {x: -0.000000007450581, y: 0.000000029802322, z: 2.220446e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: st_blade_02
-      position: {x: -.000521774287, y: -.00010879516, z: -.00251060491}
-      rotation: {x: -7.4505806e-09, y: 2.98023224e-08, z: 2.22044605e-16, w: 1}
+      parentName: 
+      position: {x: -0.0005217743, y: -0.00010879516, z: -0.002510605}
+      rotation: {x: -0.000000007450581, y: 0.000000029802322, z: 2.220446e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: st_blade_03
-      position: {x: -.00183673855, y: -.000527992263, z: .00128189079}
-      rotation: {x: -7.4505806e-09, y: 2.98023224e-08, z: 2.22044605e-16, w: 1}
+      parentName: 
+      position: {x: -0.0018367385, y: -0.00052799226, z: 0.0012818908}
+      rotation: {x: -0.000000007450581, y: 0.000000029802322, z: 2.220446e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: st_hilt_01
-      position: {x: -.000569572439, y: .000729827851, z: -.0927131623}
-      rotation: {x: -2.30156019e-08, y: 1.97404564e-08, z: -.5, w: .866025388}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00056957244, y: 0.00072982785, z: -0.09271316}
+      rotation: {x: -0.000000023015602, y: 0.000000019740456, z: -0.5, w: 0.8660254}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: st_hilt_02
-      position: {x: -.000569572439, y: .000729827851, z: -.0927131623}
-      rotation: {x: -2.11529603e-08, y: 2.29666508e-08, z: -.499999911, w: .866025448}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00056957244, y: 0.00072982785, z: -0.09271316}
+      rotation: {x: -0.00000002115296, y: 0.00000002296665, z: -0.4999999, w: 0.86602545}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: steam_sword01
-      position: {x: -.00067756651, y: .000645675638, z: .010216522}
-      rotation: {x: .58822, y: -.406185597, z: .56425041, w: -.413076252}
-      scale: {x: .94999969, y: .949999988, z: .949999809}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0006775665, y: 0.00064567564, z: 0.010216522}
+      rotation: {x: 0.58822, y: -0.4061856, z: 0.5642504, w: -0.41307625}
+      scale: {x: 0.9499997, y: 0.95, z: 0.9499998}
     - name: st_blade_04
-      position: {x: -.0018366623, y: -.000527992263, z: .00128189079}
-      rotation: {x: -1.49011612e-08, y: -1.4901163e-08, z: 1.49011612e-08, w: 1}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0018366623, y: -0.00052799226, z: 0.0012818908}
+      rotation: {x: -0.000000014901161, y: -0.000000014901163, z: 0.000000014901161,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: st_blade_05
-      position: {x: -.000814971921, y: .00102588651, z: -.00858230609}
-      rotation: {x: -1.49011612e-08, y: -1.4901163e-08, z: 1.49011612e-08, w: 1}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0008149719, y: 0.0010258865, z: -0.008582306}
+      rotation: {x: -0.000000014901161, y: -0.000000014901163, z: 0.000000014901161,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: st_blade_06
-      position: {x: -.000521697977, y: -.00010875702, z: -.00251060491}
-      rotation: {x: -1.49011612e-08, y: -1.4901163e-08, z: 1.49011612e-08, w: 1}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.000521698, y: -0.00010875702, z: -0.002510605}
+      rotation: {x: -0.000000014901161, y: -0.000000014901163, z: 0.000000014901161,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: st_hilt_03
-      position: {x: -.000569458003, y: .000729904161, z: -.0927131623}
-      rotation: {x: -1.56987525e-08, y: 2.61128474e-09, z: -.49999994, w: .866025448}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.000569458, y: 0.00072990416, z: -0.09271316}
+      rotation: {x: -0.000000015698753, y: 0.0000000026112847, z: -0.49999994, w: 0.86602545}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: st_hilt_04
-      position: {x: -.000569458003, y: .000729904161, z: -.0927131623}
-      rotation: {x: -1.38361065e-08, y: 5.83748294e-09, z: -.5, w: .866025388}
+      parentName: 
+      position: {x: -0.000569458, y: 0.00072990416, z: -0.09271316}
+      rotation: {x: -0.0000000138361065, y: 0.000000005837483, z: -0.5, w: 0.8660254}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Bip01 R Thigh
-      position: {x: -1.54580368e-06, y: -8.663622e-08, z: -.128788099}
-      rotation: {x: .00856727548, y: -.999917507, z: -.000276312931, w: .00956904609}
-      scale: {x: .999999642, y: .999999523, z: 1.00000119}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0000015458037, y: -0.00000008663622, z: -0.1287881}
+      rotation: {x: 0.0085672755, y: -0.9999175, z: -0.00027631293, w: 0.009569046}
+      scale: {x: 0.99999964, y: 0.9999995, z: 1.0000012}
     - name: Bip01 R Calf
-      position: {x: -.511638284, y: 5.72700642e-08, z: -6.45779679e-08}
-      rotation: {x: -9.61664526e-09, y: 5.69438612e-08, z: .0884779617, w: .996078193}
-      scale: {x: 1.00000012, y: .999999881, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.5116383, y: 0.000000057270064, z: -0.00000006457797}
+      rotation: {x: -0.000000009616645, y: 0.00000005694386, z: 0.08847796, w: 0.9960782}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999976}
     - name: Bip01 R Foot
-      position: {x: -.501551986, y: 5.35828377e-08, z: -1.54983326e-07}
-      rotation: {x: -.000570711854, y: -.00955606345, z: -.0799369663, w: .996753991}
-      scale: {x: 1.00000012, y: 1.00000012, z: .999999642}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.501552, y: 0.000000053582838, z: -0.00000015498333}
+      rotation: {x: -0.00057071185, y: -0.009556063, z: -0.07993697, w: 0.996754}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999964}
     - name: Bip01 R Toe0
-      position: {x: -.0888184085, y: .180874452, z: 1.17275079e-09}
-      rotation: {x: 4.63550975e-07, y: 4.6367964e-07, z: -.707106829, w: .707106829}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.08881841, y: 0.18087445, z: 0.0000000011727508}
+      rotation: {x: 0.00000046355098, y: 0.00000046367964, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: Bip01 right_Wmount
-      position: {x: .0333630033, y: .0363012403, z: -.245724097}
-      rotation: {x: -.0937077329, y: -.0201185793, z: -.973565817, w: -.207325146}
-      scale: {x: 1.00000036, y: .999999821, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.033363003, y: 0.03630124, z: -0.2457241}
+      rotation: {x: -0.09370773, y: -0.02011858, z: -0.9735658, w: -0.20732515}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.9999998}
     - name: sr_holster
-      position: {x: .0011374664, y: .0278805923, z: .0012140465}
-      rotation: {x: .468975544, y: .446217388, z: -.509322107, w: .567047596}
-      scale: {x: .900000095, y: .900000036, z: .899999976}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.0011374664, y: 0.027880592, z: 0.0012140465}
+      rotation: {x: 0.46897554, y: 0.4462174, z: -0.5093221, w: 0.5670476}
+      scale: {x: 0.9000001, y: 0.90000004, z: 0.9}
     - name: Syeam_Revolver
-      position: {x: .00152885437, y: .0769880638, z: .0727838129}
-      rotation: {x: -2.7755569e-17, y: -3.72528985e-09, z: -7.45057971e-09, w: 1}
-      scale: {x: 1.00000012, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.0015288544, y: 0.076988064, z: 0.07278381}
+      rotation: {x: -2.7755569e-17, y: -0.0000000037252899, z: -0.0000000074505797,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
     - name: sr_barrel
-      position: {x: -.000116729731, y: -.142448038, z: -.0348370336}
-      rotation: {x: -2.77555822e-17, y: -4.65661343e-10, z: -5.96046519e-08, w: 1}
-      scale: {x: .999999881, y: .999999821, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00011672973, y: -0.14244804, z: -0.034837034}
+      rotation: {x: -2.7755582e-17, y: -4.6566134e-10, z: -0.00000005960465, w: 1}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
     - name: sr_cylinder
-      position: {x: -.000273170474, y: .0492906161, z: -.00253585819}
-      rotation: {x: 3.72529074e-09, y: 1.39698397e-09, z: -5.20417126e-18, w: 1}
-      scale: {x: .99999994, y: .999999881, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00027317047, y: 0.049290616, z: -0.0025358582}
+      rotation: {x: 0.0000000037252907, y: 0.000000001396984, z: -5.2041713e-18, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
     - name: bullet_00
-      position: {x: -.0205879975, y: .0220639799, z: -.0111122131}
-      rotation: {x: .683012784, y: .183012694, z: -.183012709, w: .683012724}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.020587998, y: 0.02206398, z: -0.011112213}
+      rotation: {x: 0.6830128, y: 0.1830127, z: -0.18301271, w: 0.6830127}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: bullet_01
-      position: {x: .000330734241, y: .0220639799, z: -.0219301973}
-      rotation: {x: .683012784, y: .183012694, z: -.183012709, w: .683012724}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.00033073424, y: 0.02206398, z: -0.021930197}
+      rotation: {x: 0.6830128, y: 0.1830127, z: -0.18301271, w: 0.6830127}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: bullet_02
-      position: {x: .0187762454, y: .0220639035, z: -.0114064021}
-      rotation: {x: .683012784, y: .183012694, z: -.183012709, w: .683012724}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.018776245, y: 0.022063904, z: -0.011406402}
+      rotation: {x: 0.6830128, y: 0.1830127, z: -0.18301271, w: 0.6830127}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: bullet_03
-      position: {x: .0201490019, y: .0220639035, z: .0111647127}
-      rotation: {x: .683012784, y: .183012694, z: -.183012709, w: .683012724}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.020149002, y: 0.022063904, z: 0.011164713}
+      rotation: {x: 0.6830128, y: 0.1830127, z: -0.18301271, w: 0.6830127}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: bullet_04
-      position: {x: .000562782283, y: .0220639799, z: .0226647947}
-      rotation: {x: .683012784, y: .183012694, z: -.183012709, w: .683012724}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.0005627823, y: 0.02206398, z: 0.022664795}
+      rotation: {x: 0.6830128, y: 0.1830127, z: -0.18301271, w: 0.6830127}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: bullet_05
-      position: {x: -.0195182804, y: .0220639799, z: .0109138489}
-      rotation: {x: .683012784, y: .183012694, z: -.183012709, w: .683012724}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.01951828, y: 0.02206398, z: 0.010913849}
+      rotation: {x: 0.6830128, y: 0.1830127, z: -0.18301271, w: 0.6830127}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: sr_hammer
-      position: {x: -.000221023554, y: -.0239331052, z: -.0801385939}
-      rotation: {x: -2.77555822e-17, y: -4.65661343e-10, z: -5.96046519e-08, w: 1}
-      scale: {x: .999999881, y: .999999821, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00022102355, y: -0.023933105, z: -0.080138594}
+      rotation: {x: -2.7755582e-17, y: -4.6566134e-10, z: -0.00000005960465, w: 1}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
     - name: Bip01 Spine
-      position: {x: -.110831752, y: -.018222034, z: 4.24043236e-08}
-      rotation: {x: 2.04145908e-06, y: 4.47033912e-08, z: 4.47034552e-08, w: -1}
-      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.11083175, y: -0.018222034, z: 0.000000042404324}
+      rotation: {x: 0.000002041459, y: 0.00000004470339, z: 0.000000044703455, w: -1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
     - name: Bip01 Spine1
-      position: {x: -.141951457, y: -.000124964514, z: -2.82976087e-09}
-      rotation: {x: -2.98023011e-08, y: 2.98023046e-08, z: 2.98023437e-08, w: 1}
-      scale: {x: .999999762, y: 1.00000024, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.14195146, y: -0.00012496451, z: -0.0000000028297609}
+      rotation: {x: -0.000000029802301, y: 0.000000029802305, z: 0.000000029802344,
+        w: 1}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1}
     - name: Bip01 back_center_Wmount
-      position: {x: -.190637812, y: -.218572214, z: -.00998394191}
-      rotation: {x: -.000564315473, y: .707108974, z: -.707104445, w: -1.09565599e-06}
+      parentName: 
+      position: {x: -0.19063781, y: -0.21857221, z: -0.009983942}
+      rotation: {x: -0.0005643155, y: 0.707109, z: -0.70710444, w: -0.000001095656}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_jetpack
-      position: {x: -.00268173218, y: -2.0956993e-06, z: 1.52587887e-07}
-      rotation: {x: .499801427, y: .500198662, z: .500201166, w: .499798566}
-      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0026817322, y: -0.0000020956993, z: 0.00000015258789}
+      rotation: {x: 0.49980143, y: 0.50019866, z: 0.50020117, w: 0.49979857}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
     - name: Bip01 L Clavicle
-      position: {x: -.256985962, y: -.00981649291, z: .0891700312}
-      rotation: {x: -.706864476, y: -.0185109284, z: .706864536, w: .018510852}
-      scale: {x: 1, y: .999999583, z: .999999523}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.25698596, y: -0.009816493, z: 0.08917003}
+      rotation: {x: -0.7068645, y: -0.018510928, z: 0.70686454, w: 0.018510852}
+      scale: {x: 1, y: 0.9999996, z: 0.9999995}
     - name: Bip01 L UpperArm
-      position: {x: -.117000915, y: -4.15674108e-08, z: 6.45347313e-07}
-      rotation: {x: .0259640496, y: -.0289478116, z: .0258082617, w: .998910367}
-      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000107}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.117000915, y: -0.00000004156741, z: 0.0000006453473}
+      rotation: {x: 0.02596405, y: -0.028947812, z: 0.025808262, w: 0.99891037}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000011}
     - name: Bip01 L ForeTwist
-      position: {x: -.258052319, y: 6.56704771e-08, z: 2.48357225e-07}
-      rotation: {x: -.0054523549, y: .0252958722, z: .0319812372, w: .999153435}
-      scale: {x: .999999762, y: .999999225, z: .999999642}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.25805232, y: 0.00000006567048, z: 0.00000024835722}
+      rotation: {x: -0.005452355, y: 0.025295872, z: 0.031981237, w: 0.99915344}
+      scale: {x: 0.99999976, y: 0.9999992, z: 0.99999964}
     - name: Bip01 L ForeTwist1
-      position: {x: -.119801097, y: -3.70016835e-08, z: -4.64966696e-08}
-      rotation: {x: .000132889254, y: -7.78021469e-09, z: 7.03215122e-08, w: 1}
-      scale: {x: 1.00000024, y: .999999821, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.1198011, y: -0.000000037001683, z: -0.00000004649667}
+      rotation: {x: 0.00013288925, y: -0.000000007780215, z: 0.00000007032151, w: 1}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.9999998}
     - name: Bip01 L Hand
-      position: {x: -.119801275, y: 1.12834762e-07, z: 2.26430302e-07}
-      rotation: {x: .706770897, y: -.0184976831, z: .0185222141, w: -.706958055}
-      scale: {x: 1, y: 1.00000072, z: 1.00000095}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.119801275, y: 0.00000011283476, z: 0.0000002264303}
+      rotation: {x: 0.7067709, y: -0.018497683, z: 0.018522214, w: -0.70695806}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
     - name: Bip01 L Finger0
-      position: {x: -.0452425964, y: .0151228551, z: -.0528921299}
-      rotation: {x: -.672726572, y: .293824553, z: -.261938393, w: -.626493812}
-      scale: {x: 1.0000006, y: .999999285, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.045242596, y: 0.015122855, z: -0.05289213}
+      rotation: {x: -0.6727266, y: 0.29382455, z: -0.2619384, w: -0.6264938}
+      scale: {x: 1.0000006, y: 0.9999993, z: 1.0000001}
     - name: Bip01 L Finger01
-      position: {x: -.041858077, y: -3.69786335e-08, z: 4.13172074e-07}
-      rotation: {x: -1.71901911e-06, y: 2.1230655e-05, z: -.0377747826, w: .999286294}
-      scale: {x: 1.00000036, y: .999999821, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.041858077, y: -0.000000036978633, z: 0.00000041317207}
+      rotation: {x: -0.0000017190191, y: 0.000021230655, z: -0.037774783, w: 0.9992863}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.9999999}
     - name: Bip01 L Finger02
-      position: {x: -.0246135071, y: -1.9249066e-07, z: -1.28850581e-06}
-      rotation: {x: 2.79832818e-07, y: 8.13254886e-08, z: -.116401918, w: .993202209}
-      scale: {x: 1.00000012, y: .999999046, z: .999999642}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.024613507, y: -0.00000019249066, z: -0.0000012885058}
+      rotation: {x: 0.00000027983282, y: 0.00000008132549, z: -0.11640192, w: 0.9932022}
+      scale: {x: 1.0000001, y: 0.99999905, z: 0.99999964}
     - name: Bip01 L Finger1
-      position: {x: -.10591308, y: .00109400041, z: -.0384030379}
-      rotation: {x: -.000398027129, y: -.0174521562, z: 6.94045411e-06, w: .999847591}
-      scale: {x: 1.00000083, y: .999999344, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10591308, y: 0.0010940004, z: -0.038403038}
+      rotation: {x: -0.00039802713, y: -0.017452156, z: 0.000006940454, w: 0.9998476}
+      scale: {x: 1.0000008, y: 0.99999934, z: 0.99999976}
     - name: Bip01 L Finger11
-      position: {x: -.0493879095, y: 9.6405472e-07, z: -5.08710301e-08}
-      rotation: {x: 4.99434449e-08, y: 2.25810997e-08, z: -.041289974, w: .999147236}
-      scale: {x: .999999523, y: 1.00000036, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04938791, y: 0.0000009640547, z: -0.00000005087103}
+      rotation: {x: 0.000000049943445, y: 0.0000000225811, z: -0.041289974, w: 0.99914724}
+      scale: {x: 0.9999995, y: 1.0000004, z: 1}
     - name: Bip01 L Finger12
-      position: {x: -.0358128957, y: 2.52381625e-07, z: -6.80850789e-08}
-      rotation: {x: -2.19709566e-08, y: -3.99881444e-08, z: -.15961419, w: .987179518}
-      scale: {x: .99999994, y: .999999821, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.035812896, y: 0.00000025238162, z: -0.00000006808508}
+      rotation: {x: -0.000000021970957, y: -0.000000039988144, z: -0.15961419, w: 0.9871795}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
     - name: Bip01 L Finger2
-      position: {x: -.10653206, y: -.0049557602, z: -.012009182}
-      rotation: {x: -.000398009637, y: .0174526367, z: -6.96145253e-06, w: .999847591}
-      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000083}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10653206, y: -0.00495576, z: -0.012009182}
+      rotation: {x: -0.00039800964, y: 0.017452637, z: -0.0000069614525, w: 0.9998476}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000008}
     - name: Bip01 L Finger21
-      position: {x: -.0524678305, y: 9.02060663e-07, z: -2.09877804e-09}
-      rotation: {x: -4.17347117e-08, y: -6.2452159e-08, z: -.0206720345, w: .999786377}
-      scale: {x: .999999702, y: .999999642, z: .999998927}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.05246783, y: 0.00000090206066, z: -0.000000002098778}
+      rotation: {x: -0.00000004173471, y: -0.00000006245216, z: -0.020672034, w: 0.9997864}
+      scale: {x: 0.9999997, y: 0.99999964, z: 0.9999989}
     - name: Bip01 L Finger22
-      position: {x: -.0341053605, y: 1.54898785e-07, z: 1.96611524e-07}
-      rotation: {x: 3.3221621e-08, y: 6.04609909e-08, z: -.185400739, w: .982663035}
-      scale: {x: .999999762, y: 1, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03410536, y: 0.00000015489879, z: 0.00000019661152}
+      rotation: {x: 0.00000003322162, y: 0.00000006046099, z: -0.18540074, w: 0.98266304}
+      scale: {x: 0.99999976, y: 1, z: 1.0000004}
     - name: Bip01 L Finger3
-      position: {x: -.108231306, y: -.0033800134, z: .0165066831}
-      rotation: {x: 5.57283383e-05, y: .023698492, z: .00739655318, w: .999691844}
-      scale: {x: .999999821, y: .999999344, z: .999998808}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.108231306, y: -0.0033800134, z: 0.016506683}
+      rotation: {x: 0.00005572834, y: 0.023698492, z: 0.007396553, w: 0.99969184}
+      scale: {x: 0.9999998, y: 0.99999934, z: 0.9999988}
     - name: Bip01 L Finger31
-      position: {x: -.0473150723, y: -8.04048454e-07, z: -8.36195291e-09}
-      rotation: {x: 4.74987409e-08, y: -4.1126134e-07, z: -.0401832089, w: .999192357}
-      scale: {x: 1.00000072, y: 1.00000107, z: 1.00000143}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.047315072, y: -0.00000080404845, z: -0.000000008361953}
+      rotation: {x: 0.00000004749874, y: -0.00000041126134, z: -0.04018321, w: 0.99919236}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000014}
     - name: Bip01 L Finger32
-      position: {x: -.028184725, y: 6.94331277e-08, z: 3.6539749e-08}
-      rotation: {x: 1.32025562e-07, y: 3.46959084e-08, z: -.151665047, w: .98843199}
-      scale: {x: .999999881, y: .99999994, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.028184725, y: 0.00000006943313, z: 0.00000003653975}
+      rotation: {x: 0.00000013202556, y: 0.00000003469591, z: -0.15166505, w: 0.988432}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
     - name: Bip01 L Finger4
-      position: {x: -.104705885, y: .00328001496, z: .0407604724}
-      rotation: {x: .000516222906, y: .0229338445, z: .0104327891, w: .999682486}
-      scale: {x: 1.00000036, y: .999999762, z: .999999702}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.104705885, y: 0.003280015, z: 0.040760472}
+      rotation: {x: 0.0005162229, y: 0.022933844, z: 0.010432789, w: 0.9996825}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.9999997}
     - name: Bip01 L Finger41
-      position: {x: -.0340031534, y: -3.99945492e-07, z: -1.06591976e-07}
-      rotation: {x: -6.84150026e-09, y: -1.18427209e-07, z: -.0403955318, w: .999183834}
-      scale: {x: .999999762, y: 1.00000048, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.034003153, y: -0.0000003999455, z: -0.000000106591976}
+      rotation: {x: -0.0000000068415003, y: -0.00000011842721, z: -0.04039553, w: 0.99918383}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000001}
     - name: Bip01 L Finger42
-      position: {x: -.0310027897, y: 5.78100298e-07, z: -6.93945523e-08}
-      rotation: {x: 1.15887815e-08, y: 7.60484227e-08, z: -.142361194, w: .989814758}
-      scale: {x: 1.00000036, y: .999999821, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03100279, y: 0.0000005781003, z: -0.00000006939455}
+      rotation: {x: 0.0000000115887815, y: 0.00000007604842, z: -0.1423612, w: 0.98981476}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000004}
     - name: Bip01 Rhand_WeaponOpp
-      position: {x: -.0900499672, y: .0252639186, z: -.0215138234}
-      rotation: {x: .497535527, y: .502970159, z: .502458334, w: -.497006118}
-      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.09004997, y: 0.025263919, z: -0.021513823}
+      rotation: {x: 0.49753553, y: 0.50297016, z: 0.50245833, w: -0.49700612}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
     - name: steam_sword02
-      position: {x: .0121202851, y: 7.62939436e-08, z: 5.72204577e-08}
-      rotation: {x: -.468543053, y: .52959168, z: -.468543112, w: .529591739}
-      scale: {x: .949999452, y: .949999571, z: .949999928}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.012120285, y: 0.000000076293944, z: 0.000000057220458}
+      rotation: {x: -0.46854305, y: 0.5295917, z: -0.4685431, w: 0.52959174}
+      scale: {x: 0.94999945, y: 0.9499996, z: 0.9499999}
     - name: st_blade_07
-      position: {x: -.00183670036, y: -.000528030389, z: -.791074336}
-      rotation: {x: -1.11758709e-08, y: 2.98023259e-08, z: -1.11758718e-08, w: 1}
-      scale: {x: .999999881, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0018367004, y: -0.0005280304, z: -0.79107434}
+      rotation: {x: -0.000000011175871, y: 0.000000029802326, z: -0.000000011175872,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: st_blade_08
-      position: {x: -.000814971921, y: .00102584832, z: -.25577873}
-      rotation: {x: -1.11758709e-08, y: 2.98023259e-08, z: -1.11758718e-08, w: 1}
-      scale: {x: .999999881, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0008149719, y: 0.0010258483, z: -0.25577873}
+      rotation: {x: -0.000000011175871, y: 0.000000029802326, z: -0.000000011175872,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: st_blade_09
-      position: {x: -.000521697977, y: -.00010875702, z: -.516982555}
-      rotation: {x: -1.11758709e-08, y: 2.98023259e-08, z: -1.11758718e-08, w: 1}
-      scale: {x: .999999881, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.000521698, y: -0.00010875702, z: -0.51698256}
+      rotation: {x: -0.000000011175871, y: 0.000000029802326, z: -0.000000011175872,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: st_hilt_05
-      position: {x: -.000569534313, y: .000729942287, z: -.0927130878}
-      rotation: {x: 2.38131879e-08, y: 4.81613149e-08, z: .500000119, w: .866025329}
-      scale: {x: 1, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0005695343, y: 0.0007299423, z: -0.09271309}
+      rotation: {x: 0.000000023813188, y: 0.000000048161315, z: 0.5000001, w: 0.8660253}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
     - name: st_hilt_06
-      position: {x: -.000569534313, y: .000729942287, z: -.0927130878}
-      rotation: {x: -1.11758709e-08, y: 2.98023259e-08, z: -1.11758718e-08, w: 1}
-      scale: {x: .999999881, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0005695343, y: 0.0007299423, z: -0.09271309}
+      rotation: {x: -0.000000011175871, y: 0.000000029802326, z: -0.000000011175872,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: Bip01 Neck
-      position: {x: -.366394073, y: -.0106897466, z: 2.65223701e-08}
-      rotation: {x: 1.00315489e-07, y: 1.0004743e-06, z: -.191199809, w: .98155117}
-      scale: {x: 1.00000012, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.36639407, y: -0.010689747, z: 0.00000002652237}
+      rotation: {x: 0.00000010031549, y: 0.0000010004743, z: -0.19119981, w: 0.9815512}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
     - name: Bip01 Head
-      position: {x: -.0802377388, y: -1.22152059e-07, z: -7.15135551e-09}
-      rotation: {x: 7.20499216e-08, y: 8.10601648e-07, z: -.122265629, w: -.992497385}
-      scale: {x: 1, y: 1.00000024, z: 1.00000048}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.08023774, y: -0.00000012215206, z: -0.0000000071513555}
+      rotation: {x: 0.00000007204992, y: 0.00000081060165, z: -0.12226563, w: -0.9924974}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
     - name: Bip01 zeye_left
-      position: {x: -.0854695737, y: .0937964022, z: .0373280235}
-      rotation: {x: -.0326818898, y: -.0599248335, z: .513167143, w: -.855570257}
-      scale: {x: .999999702, y: 1.00000012, z: .999999702}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.085469574, y: 0.0937964, z: 0.037328023}
+      rotation: {x: -0.03268189, y: -0.059924833, z: 0.51316714, w: -0.85557026}
+      scale: {x: 0.9999997, y: 1.0000001, z: 0.9999997}
     - name: Bip01 zeye_right
-      position: {x: -.0854699239, y: .0937965587, z: -.0373275429}
-      rotation: {x: -.0326822102, y: -.0599220693, z: -.513167441, w: .855570316}
-      scale: {x: .999999702, y: 1, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.085469924, y: 0.09379656, z: -0.037327543}
+      rotation: {x: -0.03268221, y: -0.05992207, z: -0.51316744, w: 0.8555703}
+      scale: {x: 0.9999997, y: 1, z: 0.9999998}
     - name: Bip01 zJaw
-      position: {x: -.0272852685, y: .0131419357, z: 2.82699264e-09}
-      rotation: {x: -2.44936615e-07, y: -3.54000599e-06, z: .804094076, w: -.594502151}
-      scale: {x: 1.00000012, y: .999999821, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.027285269, y: 0.013141936, z: 0.0000000028269926}
+      rotation: {x: -0.00000024493661, y: -0.000003540006, z: 0.8040941, w: -0.59450215}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
     - name: Bip01 R Clavicle
-      position: {x: -.25698626, y: -.00981599838, z: -.0891701654}
-      rotation: {x: .706864536, y: .0185090024, z: .706864476, w: .0185089838}
-      scale: {x: 1.00000012, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.25698626, y: -0.009815998, z: -0.089170165}
+      rotation: {x: 0.70686454, y: 0.018509002, z: 0.7068645, w: 0.018508984}
+      scale: {x: 1.0000001, y: 1, z: 1}
     - name: Bip01 R UpperArm
-      position: {x: -.1170009, y: 6.56186216e-08, z: 4.91895946e-07}
-      rotation: {x: .0259638, y: -.0289478768, z: -.0258078631, w: -.998910367}
-      scale: {x: .999999881, y: .999999702, z: .999999702}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.1170009, y: 0.00000006561862, z: 0.00000049189595}
+      rotation: {x: 0.0259638, y: -0.028947877, z: -0.025807863, w: -0.99891037}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.9999997}
     - name: Bip01 R ForeTwist
-      position: {x: -.258051813, y: -2.1983044e-07, z: -1.79604868e-07}
-      rotation: {x: -.00545227341, y: .0252957325, z: -.0319818333, w: -.999153435}
-      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.2580518, y: -0.00000021983044, z: -0.00000017960487}
+      rotation: {x: -0.0054522734, y: 0.025295733, z: -0.031981833, w: -0.99915344}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
     - name: Bip01 R ForeTwist1
-      position: {x: -.119801298, y: 8.37435579e-08, z: 1.31384775e-06}
-      rotation: {x: -.000132868532, y: 1.82538091e-08, z: 1.85362019e-08, w: 1}
-      scale: {x: 1.00000012, y: 1.00000012, z: .999999344}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.1198013, y: 0.00000008374356, z: 0.0000013138477}
+      rotation: {x: -0.00013286853, y: 0.00000001825381, z: 0.000000018536202, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999934}
     - name: Bip01 R Hand
-      position: {x: -.119801253, y: -1.92008827e-08, z: -1.57890076e-06}
-      rotation: {x: .706770897, y: -.0184976552, z: -.0185221788, w: .706958055}
-      scale: {x: .999999464, y: .999999225, z: .999999642}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.11980125, y: -0.000000019200883, z: -0.0000015789008}
+      rotation: {x: 0.7067709, y: -0.018497655, z: -0.018522179, w: 0.70695806}
+      scale: {x: 0.99999946, y: 0.9999992, z: 0.99999964}
     - name: Bip01 R Finger0
-      position: {x: -.0452424809, y: .0151248788, z: .0528916754}
-      rotation: {x: .746734142, y: -.0871042758, z: -.0795836449, w: -.654574215}
-      scale: {x: 1.00000036, y: .999999523, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04524248, y: 0.015124879, z: 0.052891675}
+      rotation: {x: 0.74673414, y: -0.087104276, z: -0.079583645, w: -0.6545742}
+      scale: {x: 1.0000004, y: 0.9999995, z: 1}
     - name: Bip01 R Finger01
-      position: {x: -.0418583266, y: -1.00026917e-07, z: 1.34545317e-07}
-      rotation: {x: -3.40736221e-07, y: 5.18020079e-06, z: -.0377678685, w: .999286532}
-      scale: {x: .999999881, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.041858327, y: -0.00000010002692, z: 0.00000013454532}
+      rotation: {x: -0.00000034073622, y: 0.000005180201, z: -0.03776787, w: 0.99928653}
+      scale: {x: 0.9999999, y: 1, z: 1}
     - name: Bip01 R Finger02
-      position: {x: -.0246130936, y: 5.08254914e-08, z: -3.33250739e-07}
-      rotation: {x: -2.75479834e-07, y: 7.1777464e-08, z: -.116401814, w: .993202209}
-      scale: {x: 1.00000107, y: .999999344, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.024613094, y: 0.00000005082549, z: -0.00000033325074}
+      rotation: {x: -0.00000027547983, y: 0.000000071777464, z: -0.116401814, w: 0.9932022}
+      scale: {x: 1.0000011, y: 0.99999934, z: 1.0000004}
     - name: Bip01 R Finger1
-      position: {x: -.105912887, y: .00109326991, z: .0384029523}
-      rotation: {x: .000398130331, y: .0174521767, z: 6.87055854e-06, w: .999847651}
-      scale: {x: 1.00000048, y: 1.00000107, z: 1.00000048}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10591289, y: 0.0010932699, z: 0.038402952}
+      rotation: {x: 0.00039813033, y: 0.017452177, z: 0.0000068705585, w: 0.99984765}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000005}
     - name: Bip01 R Finger11
-      position: {x: -.0493878946, y: -1.77964694e-07, z: 3.51960594e-08}
-      rotation: {x: -8.44234762e-08, y: -5.75138621e-08, z: -.0468361713, w: .998902559}
-      scale: {x: .999999762, y: .999999762, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.049387895, y: -0.0000001779647, z: 0.00000003519606}
+      rotation: {x: -0.000000084423476, y: -0.000000057513862, z: -0.04683617, w: 0.99890256}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000002}
     - name: Bip01 R Finger12
-      position: {x: -.0358130485, y: -3.16552509e-08, z: 1.01298852e-07}
-      rotation: {x: 4.3907832e-08, y: 2.67438178e-08, z: -.159614131, w: .987179458}
-      scale: {x: 1.00000012, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03581305, y: -0.00000003165525, z: 0.00000010129885}
+      rotation: {x: 0.000000043907832, y: 0.000000026743818, z: -0.15961413, w: 0.98717946}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
     - name: Bip01 R Finger2
-      position: {x: -.106531896, y: -.00495566707, z: .0120091019}
-      rotation: {x: .000398113218, y: -.0174526125, z: -6.97255246e-06, w: .999847651}
-      scale: {x: 1.0000006, y: 1.00000083, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.106531896, y: -0.004955667, z: 0.012009102}
+      rotation: {x: 0.00039811322, y: -0.017452613, z: -0.0000069725525, w: 0.99984765}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000002}
     - name: Bip01 R Finger21
-      position: {x: -.0524678342, y: 2.30560275e-07, z: -7.32443723e-08}
-      rotation: {x: -5.85305422e-08, y: 8.39225134e-09, z: -.0206719358, w: .999786317}
-      scale: {x: .999999464, y: .999999464, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.052467834, y: 0.00000023056027, z: -0.00000007324437}
+      rotation: {x: -0.000000058530542, y: 0.000000008392251, z: -0.020671936, w: 0.9997863}
+      scale: {x: 0.99999946, y: 0.99999946, z: 0.99999976}
     - name: Bip01 R Finger22
-      position: {x: -.0341051854, y: -1.8266519e-07, z: 5.4575608e-08}
-      rotation: {x: 1.27336023e-07, y: -1.59024705e-08, z: -.185400799, w: .982662976}
-      scale: {x: 1.00000095, y: 1.00000072, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.034105185, y: -0.00000018266519, z: 0.000000054575608}
+      rotation: {x: 0.00000012733602, y: -0.00000001590247, z: -0.1854008, w: 0.982663}
+      scale: {x: 1.000001, y: 1.0000007, z: 1}
     - name: Bip01 R Finger3
-      position: {x: -.108230934, y: -.0033813105, z: -.0165068638}
-      rotation: {x: -5.52945603e-05, y: -.0236976165, z: .00739916181, w: .999691844}
-      scale: {x: .999999702, y: .999999881, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10823093, y: -0.0033813105, z: -0.016506864}
+      rotation: {x: -0.00005529456, y: -0.023697617, z: 0.007399162, w: 0.99969184}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999976}
     - name: Bip01 R Finger31
-      position: {x: -.0473153442, y: -2.77648496e-07, z: 1.66720664e-08}
-      rotation: {x: 7.9821568e-08, y: -2.86748275e-07, z: -.0401975401, w: .999191821}
-      scale: {x: 1.0000006, y: 1.00000095, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.047315344, y: -0.0000002776485, z: 0.000000016672066}
+      rotation: {x: 0.00000007982157, y: -0.00000028674827, z: -0.04019754, w: 0.9991918}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000004}
     - name: Bip01 R Finger32
-      position: {x: -.0281844269, y: -3.11467687e-07, z: 6.98582383e-08}
-      rotation: {x: -1.03618731e-07, y: 6.29620232e-08, z: -.151664913, w: .98843205}
-      scale: {x: .999999821, y: .999999285, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.028184427, y: -0.0000003114677, z: 0.00000006985824}
+      rotation: {x: -0.00000010361873, y: 0.00000006296202, z: -0.15166491, w: 0.98843205}
+      scale: {x: 0.9999998, y: 0.9999993, z: 1.0000002}
     - name: Bip01 R Finger4
-      position: {x: -.104705773, y: .00327927014, z: -.0407604575}
-      rotation: {x: -.000515262829, y: -.0229301564, z: .0104378425, w: .999682426}
-      scale: {x: 1.0000006, y: 1.00000072, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10470577, y: 0.0032792701, z: -0.040760458}
+      rotation: {x: -0.00051526283, y: -0.022930156, z: 0.010437842, w: 0.9996824}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000001}
     - name: Bip01 R Finger41
-      position: {x: -.0340030268, y: 3.60092059e-07, z: -7.62921673e-08}
-      rotation: {x: 9.84711548e-08, y: -9.22296181e-07, z: -.0404155813, w: .999182999}
-      scale: {x: 1.00000048, y: 1.00000024, z: .999999523}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.034003027, y: 0.00000036009206, z: -0.00000007629217}
+      rotation: {x: 0.000000098471155, y: -0.0000009222962, z: -0.04041558, w: 0.999183}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999995}
     - name: Bip01 R Finger42
-      position: {x: -.0310026743, y: -1.35706443e-07, z: 5.52107835e-08}
-      rotation: {x: -1.17080624e-07, y: -3.67712194e-09, z: -.142361134, w: .989814758}
-      scale: {x: .999999762, y: .999999225, z: 1.00000036}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.031002674, y: -0.00000013570644, z: 0.000000055210784}
+      rotation: {x: -0.000000117080624, y: -0.000000003677122, z: -0.14236113, w: 0.98981476}
+      scale: {x: 0.99999976, y: 0.9999992, z: 1.0000004}
     - name: Bip01 Rhand_Weapon
-      position: {x: -.100062408, y: .0378143117, z: .0241680704}
-      rotation: {x: -.507248461, y: .480643451, z: .512272596, w: .499257118}
-      scale: {x: .999999762, y: .999999642, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.10006241, y: 0.03781431, z: 0.02416807}
+      rotation: {x: -0.50724846, y: 0.48064345, z: 0.5122726, w: 0.49925712}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1}
     - name: Syeam_Revolver02
-      position: {x: -.115742944, y: .04586998, z: -.00874723401}
-      rotation: {x: .621531725, y: .349852324, z: -.606899261, w: .350678116}
-      scale: {x: .899999857, y: .900000393, z: .900000155}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.115742944, y: 0.04586998, z: -0.008747234}
+      rotation: {x: 0.6215317, y: 0.34985232, z: -0.60689926, w: 0.35067812}
+      scale: {x: 0.89999986, y: 0.9000004, z: 0.90000015}
     - name: sr_barrel02
-      position: {x: -.000116767878, y: -.142448187, z: -.0348370336}
-      rotation: {x: -.989172041, y: -.00438798266, z: .0212574899, w: .14514704}
-      scale: {x: 1.00000012, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00011676788, y: -0.14244819, z: -0.034837034}
+      rotation: {x: -0.98917204, y: -0.0043879827, z: 0.02125749, w: 0.14514704}
+      scale: {x: 1.0000001, y: 1, z: 1}
     - name: sr_cylinder02
-      position: {x: -.000273151381, y: .0492905416, z: -.00253585819}
-      rotation: {x: -7.4505806e-09, y: 4.42378223e-09, z: 1.86264515e-09, w: 1}
+      parentName: 
+      position: {x: -0.00027315138, y: 0.04929054, z: -0.0025358582}
+      rotation: {x: -0.000000007450581, y: 0.0000000044237822, z: 0.0000000018626451,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: bullet_12
-      position: {x: -.0205880348, y: .0220639799, z: -.0111122131}
-      rotation: {x: .683012724, y: .183012649, z: -.183012649, w: .683012724}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.020588035, y: 0.02206398, z: -0.011112213}
+      rotation: {x: 0.6830127, y: 0.18301265, z: -0.18301265, w: 0.6830127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: bullet_13
-      position: {x: .000330734241, y: .0220639035, z: -.0219301973}
-      rotation: {x: .683012724, y: .183012649, z: -.183012649, w: .683012724}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.00033073424, y: 0.022063904, z: -0.021930197}
+      rotation: {x: 0.6830127, y: 0.18301265, z: -0.18301265, w: 0.6830127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: bullet_14
-      position: {x: .0187762454, y: .0220639035, z: -.0114064021}
-      rotation: {x: .683012724, y: .183012649, z: -.183012649, w: .683012724}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.018776245, y: 0.022063904, z: -0.011406402}
+      rotation: {x: 0.6830127, y: 0.18301265, z: -0.18301265, w: 0.6830127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: bullet_15
-      position: {x: .0201489832, y: .0220639035, z: .0111647034}
-      rotation: {x: .683012724, y: .183012649, z: -.183012649, w: .683012724}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.020148983, y: 0.022063904, z: 0.011164703}
+      rotation: {x: 0.6830127, y: 0.18301265, z: -0.18301265, w: 0.6830127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: bullet_16
-      position: {x: .000562744157, y: .0220639035, z: .0226647947}
-      rotation: {x: .683012724, y: .183012649, z: -.183012649, w: .683012724}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.00056274416, y: 0.022063904, z: 0.022664795}
+      rotation: {x: 0.6830127, y: 0.18301265, z: -0.18301265, w: 0.6830127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: bullet_17
-      position: {x: -.0195183177, y: .0220639035, z: .0109138489}
-      rotation: {x: .683012724, y: .183012649, z: -.183012649, w: .683012724}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.019518318, y: 0.022063904, z: 0.010913849}
+      rotation: {x: 0.6830127, y: 0.18301265, z: -0.18301265, w: 0.6830127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: sr_hammer02
-      position: {x: -.000221042632, y: -.0239331815, z: -.0801385865}
-      rotation: {x: 2.68882086e-16, y: 4.65661243e-09, z: -5.77419925e-08, w: 1}
-      scale: {x: 1.00000012, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.00022104263, y: -0.023933182, z: -0.08013859}
+      rotation: {x: 2.6888209e-16, y: 0.0000000046566124, z: -0.000000057741993, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
     - name: Captain_armor_B
-      position: {x: -1.90734859e-08, y: 1.01897347, z: .0451224968}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: -0.000000019073486, y: 1.0189735, z: 0.045122497}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_Battle_suite
-      position: {x: 0, y: 1.52696145, z: .0540645011}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.5269614, z: 0.0540645}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_belt
-      position: {x: 0, y: 1.18439376, z: .0697024539}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.1843938, z: 0.069702454}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_belt_B
-      position: {x: 0, y: .809435308, z: .0211402886}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 0.8094353, z: 0.021140289}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_body
-      position: {x: 0, y: .969235182, z: -.0346428379}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 0.9692352, z: -0.034642838}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_boots
-      position: {x: 0, y: .217748716, z: .0576700531}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 0.21774872, z: 0.057670053}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_boots_B
-      position: {x: 0, y: .21764259, z: .0636154935}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 0.21764259, z: 0.06361549}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_Clothes
-      position: {x: 0, y: 1.30489945, z: .0166225843}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.3048995, z: 0.016622584}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: captain_gloves
-      position: {x: 0, y: 1.37623262, z: .0699849799}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.3762326, z: 0.06998498}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_gloves_B
-      position: {x: 0, y: 1.31591153, z: .120469488}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.3159115, z: 0.12046949}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_Helmet
-      position: {x: 0, y: 1.87330663, z: .0582889989}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.8733066, z: 0.058289}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_shoulders
-      position: {x: 0, y: 1.30489945, z: .0166225843}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.3048995, z: 0.016622584}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Captain_Shoulders_B
-      position: {x: 0, y: 1.64552748, z: -.0230899993}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      parentName: 
+      position: {x: 0, y: 1.6455275, z: -0.02309}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

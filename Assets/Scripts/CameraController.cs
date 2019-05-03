@@ -51,11 +51,11 @@ public class CameraController: MonoBehaviour
     private void LateUpdate()
     {
         Vector3 dir = new Vector3(0, 0, -distance);
-        Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
+        Quaternion rotation = Quaternion.Euler(currentY * 0.10f, currentX, 0);
         camTransform.position = target.position + rotation * dir;
 
         target.Rotate(0, Input.GetAxis("Mouse X"), 0);
-        pivot.Rotate(-Input.GetAxis("Mouse Y"), 0, 0);
+        pivot.Rotate(Input.GetAxis("Mouse Y"), 0, 0);
 
         if (camTransform.position.y < target.position.y)
             camTransform.position = new Vector3(camTransform.position.x, target.position.y - 0.5f, camTransform.position.z);
