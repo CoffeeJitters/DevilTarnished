@@ -5,8 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+<<<<<<< HEAD
   - repair
   - Waypoint
+=======
+  - repair2
+  - repair3
+  - repair1
+>>>>>>> a52855058af29e4b5fb00f8525b4115112467c35
   layers:
   - Default
   - TransparentFX
