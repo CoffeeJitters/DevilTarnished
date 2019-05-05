@@ -3,7 +3,7 @@
 public class CameraController: MonoBehaviour
 {
     private const float MIN_DISTANCE = 1.0f;
-    private const float MAX_DISTANCE = 10.0f;
+    private const float MAX_DISTANCE = 25.0f;
 
     public Transform target;
 
