@@ -13,501 +13,1487 @@ labels:
 - Astro
 - Sci fi
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bip01
-    100002: Bip01 back_center_Wmount
-    100004: Bip01 Head
-    100006: Bip01 L Calf
-    100008: Bip01 L Clavicle
-    100010: Bip01 L Finger0
-    100012: Bip01 L Finger01
-    100014: Bip01 L Finger02
-    100016: Bip01 L Finger1
-    100018: Bip01 L Finger11
-    100020: Bip01 L Finger12
-    100022: Bip01 L Finger2
-    100024: Bip01 L Finger21
-    100026: Bip01 L Finger22
-    100028: Bip01 L Finger3
-    100030: Bip01 L Finger31
-    100032: Bip01 L Finger32
-    100034: Bip01 L Finger4
-    100036: Bip01 L Finger41
-    100038: Bip01 L Finger42
-    100040: Bip01 L Foot
-    100042: Bip01 L ForeTwist
-    100044: Bip01 L ForeTwist1
-    100046: Bip01 L Hand
-    100048: Bip01 L Thigh
-    100050: Bip01 L Toe0
-    100052: Bip01 L UpperArm
-    100054: Bip01 left_Wmount
-    100056: Bip01 Neck
-    100058: Bip01 Pelvis
-    100060: Bip01 R Calf
-    100062: Bip01 R Clavicle
-    100064: Bip01 R Finger0
-    100066: Bip01 R Finger01
-    100068: Bip01 R Finger02
-    100070: Bip01 R Finger1
-    100072: Bip01 R Finger11
-    100074: Bip01 R Finger12
-    100076: Bip01 R Finger2
-    100078: Bip01 R Finger21
-    100080: Bip01 R Finger22
-    100082: Bip01 R Finger3
-    100084: Bip01 R Finger31
-    100086: Bip01 R Finger32
-    100088: Bip01 R Finger4
-    100090: Bip01 R Finger41
-    100092: Bip01 R Finger42
-    100094: Bip01 R Foot
-    100096: Bip01 R ForeTwist
-    100098: Bip01 R ForeTwist1
-    100100: Bip01 R Hand
-    100102: Bip01 R Thigh
-    100104: Bip01 R Toe0
-    100106: Bip01 R UpperArm
-    100108: Bip01 Rhand_Weapon
-    100110: Bip01 Rhand_WeaponOpp
-    100112: Bip01 right_Wmount
-    100114: Bip01 Spine
-    100116: Bip01 Spine1
-    100118: Bip01 zeye_left
-    100120: Bip01 zeye_right
-    100122: Bip01 zJaw
-    100124: bullet_00
-    100126: bullet_01
-    100128: bullet_02
-    100130: bullet_03
-    100132: bullet_04
-    100134: bullet_05
-    100136: bullet_12
-    100138: bullet_13
-    100140: bullet_14
-    100142: bullet_15
-    100144: bullet_16
-    100146: bullet_17
-    100148: Captain_armor_B
-    100150: Captain_Battle_suite
-    100152: Captain_belt
-    100154: Captain_belt_B
-    100156: Captain_body
-    100158: Captain_boots
-    100160: Captain_boots_B
-    100162: Captain_Clothes
-    100164: captain_gloves
-    100166: Captain_gloves_B
-    100168: Captain_Helmet
-    100170: Captain_jetpack
-    100172: //RootNode
-    100174: Captain_shoulders
-    100176: Captain_Shoulders_B
-    100178: sr_barrel
-    100180: sr_barrel02
-    100182: sr_cylinder
-    100184: sr_cylinder02
-    100186: sr_hammer
-    100188: sr_hammer02
-    100190: sr_holster
-    100192: st_blade_01
-    100194: st_blade_02
-    100196: st_blade_03
-    100198: st_blade_04
-    100200: st_blade_05
-    100202: st_blade_06
-    100204: st_blade_07
-    100206: st_blade_08
-    100208: st_blade_09
-    100210: st_hilt_01
-    100212: st_hilt_02
-    100214: st_hilt_03
-    100216: st_hilt_04
-    100218: st_hilt_05
-    100220: st_hilt_06
-    100222: steam_sword
-    100224: steam_sword01
-    100226: steam_sword02
-    100228: Syeam_Revolver
-    100230: Syeam_Revolver02
-    400000: Bip01
-    400002: Bip01 back_center_Wmount
-    400004: Bip01 Head
-    400006: Bip01 L Calf
-    400008: Bip01 L Clavicle
-    400010: Bip01 L Finger0
-    400012: Bip01 L Finger01
-    400014: Bip01 L Finger02
-    400016: Bip01 L Finger1
-    400018: Bip01 L Finger11
-    400020: Bip01 L Finger12
-    400022: Bip01 L Finger2
-    400024: Bip01 L Finger21
-    400026: Bip01 L Finger22
-    400028: Bip01 L Finger3
-    400030: Bip01 L Finger31
-    400032: Bip01 L Finger32
-    400034: Bip01 L Finger4
-    400036: Bip01 L Finger41
-    400038: Bip01 L Finger42
-    400040: Bip01 L Foot
-    400042: Bip01 L ForeTwist
-    400044: Bip01 L ForeTwist1
-    400046: Bip01 L Hand
-    400048: Bip01 L Thigh
-    400050: Bip01 L Toe0
-    400052: Bip01 L UpperArm
-    400054: Bip01 left_Wmount
-    400056: Bip01 Neck
-    400058: Bip01 Pelvis
-    400060: Bip01 R Calf
-    400062: Bip01 R Clavicle
-    400064: Bip01 R Finger0
-    400066: Bip01 R Finger01
-    400068: Bip01 R Finger02
-    400070: Bip01 R Finger1
-    400072: Bip01 R Finger11
-    400074: Bip01 R Finger12
-    400076: Bip01 R Finger2
-    400078: Bip01 R Finger21
-    400080: Bip01 R Finger22
-    400082: Bip01 R Finger3
-    400084: Bip01 R Finger31
-    400086: Bip01 R Finger32
-    400088: Bip01 R Finger4
-    400090: Bip01 R Finger41
-    400092: Bip01 R Finger42
-    400094: Bip01 R Foot
-    400096: Bip01 R ForeTwist
-    400098: Bip01 R ForeTwist1
-    400100: Bip01 R Hand
-    400102: Bip01 R Thigh
-    400104: Bip01 R Toe0
-    400106: Bip01 R UpperArm
-    400108: Bip01 Rhand_Weapon
-    400110: Bip01 Rhand_WeaponOpp
-    400112: Bip01 right_Wmount
-    400114: Bip01 Spine
-    400116: Bip01 Spine1
-    400118: Bip01 zeye_left
-    400120: Bip01 zeye_right
-    400122: Bip01 zJaw
-    400124: bullet_00
-    400126: bullet_01
-    400128: bullet_02
-    400130: bullet_03
-    400132: bullet_04
-    400134: bullet_05
-    400136: bullet_12
-    400138: bullet_13
-    400140: bullet_14
-    400142: bullet_15
-    400144: bullet_16
-    400146: bullet_17
-    400148: Captain_armor_B
-    400150: Captain_Battle_suite
-    400152: Captain_belt
-    400154: Captain_belt_B
-    400156: Captain_body
-    400158: Captain_boots
-    400160: Captain_boots_B
-    400162: Captain_Clothes
-    400164: captain_gloves
-    400166: Captain_gloves_B
-    400168: Captain_Helmet
-    400170: Captain_jetpack
-    400172: //RootNode
-    400174: Captain_shoulders
-    400176: Captain_Shoulders_B
-    400178: sr_barrel
-    400180: sr_barrel02
-    400182: sr_cylinder
-    400184: sr_cylinder02
-    400186: sr_hammer
-    400188: sr_hammer02
-    400190: sr_holster
-    400192: st_blade_01
-    400194: st_blade_02
-    400196: st_blade_03
-    400198: st_blade_04
-    400200: st_blade_05
-    400202: st_blade_06
-    400204: st_blade_07
-    400206: st_blade_08
-    400208: st_blade_09
-    400210: st_hilt_01
-    400212: st_hilt_02
-    400214: st_hilt_03
-    400216: st_hilt_04
-    400218: st_hilt_05
-    400220: st_hilt_06
-    400222: steam_sword
-    400224: steam_sword01
-    400226: steam_sword02
-    400228: Syeam_Revolver
-    400230: Syeam_Revolver02
-    2300000: bullet_00
-    2300002: bullet_01
-    2300004: bullet_02
-    2300006: bullet_03
-    2300008: bullet_04
-    2300010: bullet_05
-    2300012: bullet_12
-    2300014: bullet_13
-    2300016: bullet_14
-    2300018: bullet_15
-    2300020: bullet_16
-    2300022: bullet_17
-    2300024: Captain_jetpack
-    2300026: sr_barrel
-    2300028: sr_barrel02
-    2300030: sr_cylinder
-    2300032: sr_cylinder02
-    2300034: sr_hammer
-    2300036: sr_hammer02
-    2300038: sr_holster
-    2300040: st_blade_01
-    2300042: st_blade_02
-    2300044: st_blade_03
-    2300046: st_blade_04
-    2300048: st_blade_05
-    2300050: st_blade_06
-    2300052: st_blade_07
-    2300054: st_blade_08
-    2300056: st_blade_09
-    2300058: st_hilt_01
-    2300060: st_hilt_02
-    2300062: st_hilt_03
-    2300064: st_hilt_04
-    2300066: st_hilt_05
-    2300068: st_hilt_06
-    2300070: steam_sword
-    2300072: steam_sword01
-    2300074: steam_sword02
-    2300076: Syeam_Revolver
-    2300078: Syeam_Revolver02
-    3300000: bullet_00
-    3300002: bullet_01
-    3300004: bullet_02
-    3300006: bullet_03
-    3300008: bullet_04
-    3300010: bullet_05
-    3300012: bullet_12
-    3300014: bullet_13
-    3300016: bullet_14
-    3300018: bullet_15
-    3300020: bullet_16
-    3300022: bullet_17
-    3300024: Captain_jetpack
-    3300026: sr_barrel
-    3300028: sr_barrel02
-    3300030: sr_cylinder
-    3300032: sr_cylinder02
-    3300034: sr_hammer
-    3300036: sr_hammer02
-    3300038: sr_holster
-    3300040: st_blade_01
-    3300042: st_blade_02
-    3300044: st_blade_03
-    3300046: st_blade_04
-    3300048: st_blade_05
-    3300050: st_blade_06
-    3300052: st_blade_07
-    3300054: st_blade_08
-    3300056: st_blade_09
-    3300058: st_hilt_01
-    3300060: st_hilt_02
-    3300062: st_hilt_03
-    3300064: st_hilt_04
-    3300066: st_hilt_05
-    3300068: st_hilt_06
-    3300070: steam_sword
-    3300072: steam_sword01
-    3300074: steam_sword02
-    3300076: Syeam_Revolver
-    3300078: Syeam_Revolver02
-    4300000: Captain_body
-    4300002: Captain_Clothes
-    4300004: Captain_belt
-    4300006: Captain_shoulders
-    4300008: captain_gloves
-    4300010: Captain_boots
-    4300012: Captain_armor_B
-    4300014: Captain_Battle_suite
-    4300016: Captain_gloves_B
-    4300018: Captain_boots_B
-    4300020: Captain_belt_B
-    4300022: Captain_Shoulders_B
-    4300024: Captain_Helmet
-    4300026: Captain_jetpack
-    4300028: steam_sword02
-    4300030: st_hilt_05
-    4300032: st_hilt_06
-    4300034: st_blade_07
-    4300036: st_blade_08
-    4300038: st_blade_09
-    4300040: Syeam_Revolver02
-    4300042: sr_barrel02
-    4300044: sr_cylinder02
-    4300046: bullet_12
-    4300048: bullet_13
-    4300050: bullet_14
-    4300052: bullet_15
-    4300054: bullet_16
-    4300056: bullet_17
-    4300058: sr_hammer02
-    4300060: steam_sword
-    4300062: st_hilt_02
-    4300064: st_hilt_01
-    4300066: st_blade_03
-    4300068: st_blade_01
-    4300070: st_blade_02
-    4300072: steam_sword01
-    4300074: st_hilt_03
-    4300076: st_hilt_04
-    4300078: st_blade_04
-    4300080: st_blade_05
-    4300082: st_blade_06
-    4300084: sr_holster
-    4300086: Syeam_Revolver
-    4300088: sr_barrel
-    4300090: sr_cylinder
-    4300092: bullet_00
-    4300094: bullet_01
-    4300096: bullet_02
-    4300098: bullet_03
-    4300100: bullet_04
-    4300102: bullet_05
-    4300104: sr_hammer
-    7400000: Captain_Scott_Dow_01
-    7400002: Captain_S_IDLE
-    7400004: Captain_S_arm_kick_right
-    7400006: Captain_S_boring
-    7400008: Captain_S_Drinking
-    7400010: Captain_S_Eating
-    7400012: Captain_S_Explanation
-    7400014: Captain_S_Jump_standing
-    7400016: Captain_S_looking_around
-    7400018: Captain_S_Pick_object
-    7400020: Captain_S_pointing_A
-    7400022: Captain_S_salute
-    7400024: Captain_S_Say_No
-    7400026: Captain_S_Shrugs
-    7400028: Captain_S_sit_down
-    7400030: Captain_S_Sitting
-    7400032: Captain_S_Came_up
-    7400034: Captain_S_Talking
-    7400036: Captain_S_Talking_B
-    7400038: Captain_S_Use_object
-    7400040: Captain_S_warning
-    7400042: Captain_S_waving
-    7400044: Captain_M_Climbing_abyss_idle
-    7400046: Captain_M_Climbing_abyss_left
-    7400048: Captain_M_Climbing_abyss_right
-    7400050: Captain_M_Climbing_ladder_down
-    7400052: Captain_M_Climbing_ladder_up
-    7400054: Captain_M_Climbing_rope
-    7400056: Captain_M_falling_down
-    7400058: Captain_M_fly_forward
-    7400060: Captain_M_fly_left
-    7400062: Captain_M_fly_right
-    7400064: Captain_M_making_item
-    7400066: Captain_M_Moving_left
-    7400068: Captain_M_Moving_right
-    7400070: Captain_M_sleeping
-    7400072: Captain_M_Sneaking
-    7400074: Captain_M_Swimming
-    7400076: Captain_F_Puting_Weapons_back
-    7400078: Captain_F_Taking_weapons_out
-    7400080: Captain_F_COMBAT_mode_staynig
-    7400082: Captain_F_FromStand_toSquat_A
-    7400084: Captain_F_COMBAT_mode_squat
-    7400086: Captain_F_fire_Squat
-    7400088: Captain_F_lookingAround_Squat
-    7400090: Captain_F_Reload_squat
-    7400092: Captain_F_FromSquatA_toStaing
-    7400094: Captain_F_dodge_to_left
-    7400096: Captain_F_dodge_to_right
-    7400098: Captain_F_duck_below_high_swing
-    7400100: Captain_F_Hit_from_back
-    7400102: Captain_F_Hit_from_front
-    7400104: Captain_F_Hit_from_left
-    7400106: Captain_F_Hit_from_righ
-    7400108: Captain_F_L_parry_from_stright_down
-    7400110: Captain_F_L_parry_high_left
-    7400112: Captain_F_L_parry_mid_front
-    7400114: Captain_F_L_swing_high_left
-    7400116: Captain_F_L_swing_high_right
-    7400118: Captain_F_L_swing_high_straight_down
-    7400120: Captain_F_L_swing_low_left
-    7400122: Captain_F_L_swing_low_right
-    7400124: Captain_F_L_thrust_high
-    7400126: Captain_F_L_thrust_low
-    7400128: Captain_F_L_thrust_mid
-    7400130: Captain_F_LeftFoot_Kick
-    7400132: Captain_F_Looking_around_staying
-    7400134: Captain_F_RightFoot_kick
-    7400136: Captain_F_fire_staying
-    7400138: Captain_F_Reload_gun_staying
-    7400140: Captain_F_Knocked_backward
-    7400142: Captain_F_Down_back
-    7400144: Captain_F_Recover_from_knocked_backward
-    7400146: Captain_F_Knocked_forward
-    7400148: Captain_F_Down_forward
-    7400150: Captain_F_Recover_from_knocked_forward
-    7400152: Captain_FM_Casual_walk
-    7400154: Captain_FM_Cautious_walk
-    7400156: Captain_FM_Fire_walk
-    7400158: Captain_FM_Combat_run
-    7400160: Captain_FM_Fire_run
-    7400162: Captain_FM_run
-    7400164: Captain_FM_Jump_runing
-    7400166: Captain_FM_Fire_walking_back
-    7400168: Captain_FM_Walking_back
-    7400170: Captain_FM_Die_knocked_backward
-    7400172: Captain_FM_Die_knocked_forward
-    7400174: Captain_FM_Die_on_back
-    7400176: Captain_FM_Die_on_belt
-    7400178: Captain_FM_Die_squat
-    7400180: RM_Captain_FM_Casual_walk
-    7400182: RM_Captain_FM_Cautious_walk
-    7400184: RM_Captain_FM_Combat_run
-    7400186: RM_Captain_FM_Die_knocked_backward
-    7400188: RM_Captain_FM_Die_knocked_forward
-    7400190: RM_Captain_FM_Fire_run
-    7400192: RM_Captain_FM_Fire_walk
-    7400194: RM_Captain_FM_Fire_walking_back
-    7400196: RM_Captain_FM_Jump_runing
-    7400198: RM_Captain_FM_run
-    7400200: RM_Captain_FM_Walking_back
-    7400202: RM_Captain_M_Climbing_abyss_left
-    7400204: RM_Captain_M_Climbing_abyss_right
-    7400206: RM_Captain_M_Climbing_ladder_down
-    7400208: RM_Captain_M_Climbing_ladder_up
-    7400210: RM_Captain_M_Climbing_rope
-    7400212: RM_Captain_M_Moving_left
-    7400214: RM_Captain_M_Moving_right
-    7400216: RM_Captain_M_Sneaking
-    7400218: RM_Captain_M_Swimming
-    7400220: RM_Captain_F_Knocked_forward
-    7400222: RM_Captain_F_Knocked_backward
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Captain_armor_B
-    13700002: Captain_Battle_suite
-    13700004: Captain_belt
-    13700006: Captain_belt_B
-    13700008: Captain_body
-    13700010: Captain_boots
-    13700012: Captain_boots_B
-    13700014: Captain_Clothes
-    13700016: captain_gloves
-    13700018: Captain_gloves_B
-    13700020: Captain_Helmet
-    13700022: Captain_shoulders
-    13700024: Captain_Shoulders_B
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01
+  - first:
+      1: 100002
+    second: Bip01 back_center_Wmount
+  - first:
+      1: 100004
+    second: Bip01 Head
+  - first:
+      1: 100006
+    second: Bip01 L Calf
+  - first:
+      1: 100008
+    second: Bip01 L Clavicle
+  - first:
+      1: 100010
+    second: Bip01 L Finger0
+  - first:
+      1: 100012
+    second: Bip01 L Finger01
+  - first:
+      1: 100014
+    second: Bip01 L Finger02
+  - first:
+      1: 100016
+    second: Bip01 L Finger1
+  - first:
+      1: 100018
+    second: Bip01 L Finger11
+  - first:
+      1: 100020
+    second: Bip01 L Finger12
+  - first:
+      1: 100022
+    second: Bip01 L Finger2
+  - first:
+      1: 100024
+    second: Bip01 L Finger21
+  - first:
+      1: 100026
+    second: Bip01 L Finger22
+  - first:
+      1: 100028
+    second: Bip01 L Finger3
+  - first:
+      1: 100030
+    second: Bip01 L Finger31
+  - first:
+      1: 100032
+    second: Bip01 L Finger32
+  - first:
+      1: 100034
+    second: Bip01 L Finger4
+  - first:
+      1: 100036
+    second: Bip01 L Finger41
+  - first:
+      1: 100038
+    second: Bip01 L Finger42
+  - first:
+      1: 100040
+    second: Bip01 L Foot
+  - first:
+      1: 100042
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100044
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100046
+    second: Bip01 L Hand
+  - first:
+      1: 100048
+    second: Bip01 L Thigh
+  - first:
+      1: 100050
+    second: Bip01 L Toe0
+  - first:
+      1: 100052
+    second: Bip01 L UpperArm
+  - first:
+      1: 100054
+    second: Bip01 left_Wmount
+  - first:
+      1: 100056
+    second: Bip01 Neck
+  - first:
+      1: 100058
+    second: Bip01 Pelvis
+  - first:
+      1: 100060
+    second: Bip01 R Calf
+  - first:
+      1: 100062
+    second: Bip01 R Clavicle
+  - first:
+      1: 100064
+    second: Bip01 R Finger0
+  - first:
+      1: 100066
+    second: Bip01 R Finger01
+  - first:
+      1: 100068
+    second: Bip01 R Finger02
+  - first:
+      1: 100070
+    second: Bip01 R Finger1
+  - first:
+      1: 100072
+    second: Bip01 R Finger11
+  - first:
+      1: 100074
+    second: Bip01 R Finger12
+  - first:
+      1: 100076
+    second: Bip01 R Finger2
+  - first:
+      1: 100078
+    second: Bip01 R Finger21
+  - first:
+      1: 100080
+    second: Bip01 R Finger22
+  - first:
+      1: 100082
+    second: Bip01 R Finger3
+  - first:
+      1: 100084
+    second: Bip01 R Finger31
+  - first:
+      1: 100086
+    second: Bip01 R Finger32
+  - first:
+      1: 100088
+    second: Bip01 R Finger4
+  - first:
+      1: 100090
+    second: Bip01 R Finger41
+  - first:
+      1: 100092
+    second: Bip01 R Finger42
+  - first:
+      1: 100094
+    second: Bip01 R Foot
+  - first:
+      1: 100096
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100098
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100100
+    second: Bip01 R Hand
+  - first:
+      1: 100102
+    second: Bip01 R Thigh
+  - first:
+      1: 100104
+    second: Bip01 R Toe0
+  - first:
+      1: 100106
+    second: Bip01 R UpperArm
+  - first:
+      1: 100108
+    second: Bip01 Rhand_Weapon
+  - first:
+      1: 100110
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      1: 100112
+    second: Bip01 right_Wmount
+  - first:
+      1: 100114
+    second: Bip01 Spine
+  - first:
+      1: 100116
+    second: Bip01 Spine1
+  - first:
+      1: 100118
+    second: Bip01 zeye_left
+  - first:
+      1: 100120
+    second: Bip01 zeye_right
+  - first:
+      1: 100122
+    second: Bip01 zJaw
+  - first:
+      1: 100124
+    second: bullet_00
+  - first:
+      1: 100126
+    second: bullet_01
+  - first:
+      1: 100128
+    second: bullet_02
+  - first:
+      1: 100130
+    second: bullet_03
+  - first:
+      1: 100132
+    second: bullet_04
+  - first:
+      1: 100134
+    second: bullet_05
+  - first:
+      1: 100136
+    second: bullet_12
+  - first:
+      1: 100138
+    second: bullet_13
+  - first:
+      1: 100140
+    second: bullet_14
+  - first:
+      1: 100142
+    second: bullet_15
+  - first:
+      1: 100144
+    second: bullet_16
+  - first:
+      1: 100146
+    second: bullet_17
+  - first:
+      1: 100148
+    second: Captain_armor_B
+  - first:
+      1: 100150
+    second: Captain_Battle_suite
+  - first:
+      1: 100152
+    second: Captain_belt
+  - first:
+      1: 100154
+    second: Captain_belt_B
+  - first:
+      1: 100156
+    second: Captain_body
+  - first:
+      1: 100158
+    second: Captain_boots
+  - first:
+      1: 100160
+    second: Captain_boots_B
+  - first:
+      1: 100162
+    second: Captain_Clothes
+  - first:
+      1: 100164
+    second: captain_gloves
+  - first:
+      1: 100166
+    second: Captain_gloves_B
+  - first:
+      1: 100168
+    second: Captain_Helmet
+  - first:
+      1: 100170
+    second: Captain_jetpack
+  - first:
+      1: 100172
+    second: //RootNode
+  - first:
+      1: 100174
+    second: Captain_shoulders
+  - first:
+      1: 100176
+    second: Captain_Shoulders_B
+  - first:
+      1: 100178
+    second: sr_barrel
+  - first:
+      1: 100180
+    second: sr_barrel02
+  - first:
+      1: 100182
+    second: sr_cylinder
+  - first:
+      1: 100184
+    second: sr_cylinder02
+  - first:
+      1: 100186
+    second: sr_hammer
+  - first:
+      1: 100188
+    second: sr_hammer02
+  - first:
+      1: 100190
+    second: sr_holster
+  - first:
+      1: 100192
+    second: st_blade_01
+  - first:
+      1: 100194
+    second: st_blade_02
+  - first:
+      1: 100196
+    second: st_blade_03
+  - first:
+      1: 100198
+    second: st_blade_04
+  - first:
+      1: 100200
+    second: st_blade_05
+  - first:
+      1: 100202
+    second: st_blade_06
+  - first:
+      1: 100204
+    second: st_blade_07
+  - first:
+      1: 100206
+    second: st_blade_08
+  - first:
+      1: 100208
+    second: st_blade_09
+  - first:
+      1: 100210
+    second: st_hilt_01
+  - first:
+      1: 100212
+    second: st_hilt_02
+  - first:
+      1: 100214
+    second: st_hilt_03
+  - first:
+      1: 100216
+    second: st_hilt_04
+  - first:
+      1: 100218
+    second: st_hilt_05
+  - first:
+      1: 100220
+    second: st_hilt_06
+  - first:
+      1: 100222
+    second: steam_sword
+  - first:
+      1: 100224
+    second: steam_sword01
+  - first:
+      1: 100226
+    second: steam_sword02
+  - first:
+      1: 100228
+    second: Syeam_Revolver
+  - first:
+      1: 100230
+    second: Syeam_Revolver02
+  - first:
+      4: 400000
+    second: Bip01
+  - first:
+      4: 400002
+    second: Bip01 back_center_Wmount
+  - first:
+      4: 400004
+    second: Bip01 Head
+  - first:
+      4: 400006
+    second: Bip01 L Calf
+  - first:
+      4: 400008
+    second: Bip01 L Clavicle
+  - first:
+      4: 400010
+    second: Bip01 L Finger0
+  - first:
+      4: 400012
+    second: Bip01 L Finger01
+  - first:
+      4: 400014
+    second: Bip01 L Finger02
+  - first:
+      4: 400016
+    second: Bip01 L Finger1
+  - first:
+      4: 400018
+    second: Bip01 L Finger11
+  - first:
+      4: 400020
+    second: Bip01 L Finger12
+  - first:
+      4: 400022
+    second: Bip01 L Finger2
+  - first:
+      4: 400024
+    second: Bip01 L Finger21
+  - first:
+      4: 400026
+    second: Bip01 L Finger22
+  - first:
+      4: 400028
+    second: Bip01 L Finger3
+  - first:
+      4: 400030
+    second: Bip01 L Finger31
+  - first:
+      4: 400032
+    second: Bip01 L Finger32
+  - first:
+      4: 400034
+    second: Bip01 L Finger4
+  - first:
+      4: 400036
+    second: Bip01 L Finger41
+  - first:
+      4: 400038
+    second: Bip01 L Finger42
+  - first:
+      4: 400040
+    second: Bip01 L Foot
+  - first:
+      4: 400042
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400044
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400046
+    second: Bip01 L Hand
+  - first:
+      4: 400048
+    second: Bip01 L Thigh
+  - first:
+      4: 400050
+    second: Bip01 L Toe0
+  - first:
+      4: 400052
+    second: Bip01 L UpperArm
+  - first:
+      4: 400054
+    second: Bip01 left_Wmount
+  - first:
+      4: 400056
+    second: Bip01 Neck
+  - first:
+      4: 400058
+    second: Bip01 Pelvis
+  - first:
+      4: 400060
+    second: Bip01 R Calf
+  - first:
+      4: 400062
+    second: Bip01 R Clavicle
+  - first:
+      4: 400064
+    second: Bip01 R Finger0
+  - first:
+      4: 400066
+    second: Bip01 R Finger01
+  - first:
+      4: 400068
+    second: Bip01 R Finger02
+  - first:
+      4: 400070
+    second: Bip01 R Finger1
+  - first:
+      4: 400072
+    second: Bip01 R Finger11
+  - first:
+      4: 400074
+    second: Bip01 R Finger12
+  - first:
+      4: 400076
+    second: Bip01 R Finger2
+  - first:
+      4: 400078
+    second: Bip01 R Finger21
+  - first:
+      4: 400080
+    second: Bip01 R Finger22
+  - first:
+      4: 400082
+    second: Bip01 R Finger3
+  - first:
+      4: 400084
+    second: Bip01 R Finger31
+  - first:
+      4: 400086
+    second: Bip01 R Finger32
+  - first:
+      4: 400088
+    second: Bip01 R Finger4
+  - first:
+      4: 400090
+    second: Bip01 R Finger41
+  - first:
+      4: 400092
+    second: Bip01 R Finger42
+  - first:
+      4: 400094
+    second: Bip01 R Foot
+  - first:
+      4: 400096
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400098
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400100
+    second: Bip01 R Hand
+  - first:
+      4: 400102
+    second: Bip01 R Thigh
+  - first:
+      4: 400104
+    second: Bip01 R Toe0
+  - first:
+      4: 400106
+    second: Bip01 R UpperArm
+  - first:
+      4: 400108
+    second: Bip01 Rhand_Weapon
+  - first:
+      4: 400110
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      4: 400112
+    second: Bip01 right_Wmount
+  - first:
+      4: 400114
+    second: Bip01 Spine
+  - first:
+      4: 400116
+    second: Bip01 Spine1
+  - first:
+      4: 400118
+    second: Bip01 zeye_left
+  - first:
+      4: 400120
+    second: Bip01 zeye_right
+  - first:
+      4: 400122
+    second: Bip01 zJaw
+  - first:
+      4: 400124
+    second: bullet_00
+  - first:
+      4: 400126
+    second: bullet_01
+  - first:
+      4: 400128
+    second: bullet_02
+  - first:
+      4: 400130
+    second: bullet_03
+  - first:
+      4: 400132
+    second: bullet_04
+  - first:
+      4: 400134
+    second: bullet_05
+  - first:
+      4: 400136
+    second: bullet_12
+  - first:
+      4: 400138
+    second: bullet_13
+  - first:
+      4: 400140
+    second: bullet_14
+  - first:
+      4: 400142
+    second: bullet_15
+  - first:
+      4: 400144
+    second: bullet_16
+  - first:
+      4: 400146
+    second: bullet_17
+  - first:
+      4: 400148
+    second: Captain_armor_B
+  - first:
+      4: 400150
+    second: Captain_Battle_suite
+  - first:
+      4: 400152
+    second: Captain_belt
+  - first:
+      4: 400154
+    second: Captain_belt_B
+  - first:
+      4: 400156
+    second: Captain_body
+  - first:
+      4: 400158
+    second: Captain_boots
+  - first:
+      4: 400160
+    second: Captain_boots_B
+  - first:
+      4: 400162
+    second: Captain_Clothes
+  - first:
+      4: 400164
+    second: captain_gloves
+  - first:
+      4: 400166
+    second: Captain_gloves_B
+  - first:
+      4: 400168
+    second: Captain_Helmet
+  - first:
+      4: 400170
+    second: Captain_jetpack
+  - first:
+      4: 400172
+    second: //RootNode
+  - first:
+      4: 400174
+    second: Captain_shoulders
+  - first:
+      4: 400176
+    second: Captain_Shoulders_B
+  - first:
+      4: 400178
+    second: sr_barrel
+  - first:
+      4: 400180
+    second: sr_barrel02
+  - first:
+      4: 400182
+    second: sr_cylinder
+  - first:
+      4: 400184
+    second: sr_cylinder02
+  - first:
+      4: 400186
+    second: sr_hammer
+  - first:
+      4: 400188
+    second: sr_hammer02
+  - first:
+      4: 400190
+    second: sr_holster
+  - first:
+      4: 400192
+    second: st_blade_01
+  - first:
+      4: 400194
+    second: st_blade_02
+  - first:
+      4: 400196
+    second: st_blade_03
+  - first:
+      4: 400198
+    second: st_blade_04
+  - first:
+      4: 400200
+    second: st_blade_05
+  - first:
+      4: 400202
+    second: st_blade_06
+  - first:
+      4: 400204
+    second: st_blade_07
+  - first:
+      4: 400206
+    second: st_blade_08
+  - first:
+      4: 400208
+    second: st_blade_09
+  - first:
+      4: 400210
+    second: st_hilt_01
+  - first:
+      4: 400212
+    second: st_hilt_02
+  - first:
+      4: 400214
+    second: st_hilt_03
+  - first:
+      4: 400216
+    second: st_hilt_04
+  - first:
+      4: 400218
+    second: st_hilt_05
+  - first:
+      4: 400220
+    second: st_hilt_06
+  - first:
+      4: 400222
+    second: steam_sword
+  - first:
+      4: 400224
+    second: steam_sword01
+  - first:
+      4: 400226
+    second: steam_sword02
+  - first:
+      4: 400228
+    second: Syeam_Revolver
+  - first:
+      4: 400230
+    second: Syeam_Revolver02
+  - first:
+      23: 2300000
+    second: bullet_00
+  - first:
+      23: 2300002
+    second: bullet_01
+  - first:
+      23: 2300004
+    second: bullet_02
+  - first:
+      23: 2300006
+    second: bullet_03
+  - first:
+      23: 2300008
+    second: bullet_04
+  - first:
+      23: 2300010
+    second: bullet_05
+  - first:
+      23: 2300012
+    second: bullet_12
+  - first:
+      23: 2300014
+    second: bullet_13
+  - first:
+      23: 2300016
+    second: bullet_14
+  - first:
+      23: 2300018
+    second: bullet_15
+  - first:
+      23: 2300020
+    second: bullet_16
+  - first:
+      23: 2300022
+    second: bullet_17
+  - first:
+      23: 2300024
+    second: Captain_jetpack
+  - first:
+      23: 2300026
+    second: sr_barrel
+  - first:
+      23: 2300028
+    second: sr_barrel02
+  - first:
+      23: 2300030
+    second: sr_cylinder
+  - first:
+      23: 2300032
+    second: sr_cylinder02
+  - first:
+      23: 2300034
+    second: sr_hammer
+  - first:
+      23: 2300036
+    second: sr_hammer02
+  - first:
+      23: 2300038
+    second: sr_holster
+  - first:
+      23: 2300040
+    second: st_blade_01
+  - first:
+      23: 2300042
+    second: st_blade_02
+  - first:
+      23: 2300044
+    second: st_blade_03
+  - first:
+      23: 2300046
+    second: st_blade_04
+  - first:
+      23: 2300048
+    second: st_blade_05
+  - first:
+      23: 2300050
+    second: st_blade_06
+  - first:
+      23: 2300052
+    second: st_blade_07
+  - first:
+      23: 2300054
+    second: st_blade_08
+  - first:
+      23: 2300056
+    second: st_blade_09
+  - first:
+      23: 2300058
+    second: st_hilt_01
+  - first:
+      23: 2300060
+    second: st_hilt_02
+  - first:
+      23: 2300062
+    second: st_hilt_03
+  - first:
+      23: 2300064
+    second: st_hilt_04
+  - first:
+      23: 2300066
+    second: st_hilt_05
+  - first:
+      23: 2300068
+    second: st_hilt_06
+  - first:
+      23: 2300070
+    second: steam_sword
+  - first:
+      23: 2300072
+    second: steam_sword01
+  - first:
+      23: 2300074
+    second: steam_sword02
+  - first:
+      23: 2300076
+    second: Syeam_Revolver
+  - first:
+      23: 2300078
+    second: Syeam_Revolver02
+  - first:
+      33: 3300000
+    second: bullet_00
+  - first:
+      33: 3300002
+    second: bullet_01
+  - first:
+      33: 3300004
+    second: bullet_02
+  - first:
+      33: 3300006
+    second: bullet_03
+  - first:
+      33: 3300008
+    second: bullet_04
+  - first:
+      33: 3300010
+    second: bullet_05
+  - first:
+      33: 3300012
+    second: bullet_12
+  - first:
+      33: 3300014
+    second: bullet_13
+  - first:
+      33: 3300016
+    second: bullet_14
+  - first:
+      33: 3300018
+    second: bullet_15
+  - first:
+      33: 3300020
+    second: bullet_16
+  - first:
+      33: 3300022
+    second: bullet_17
+  - first:
+      33: 3300024
+    second: Captain_jetpack
+  - first:
+      33: 3300026
+    second: sr_barrel
+  - first:
+      33: 3300028
+    second: sr_barrel02
+  - first:
+      33: 3300030
+    second: sr_cylinder
+  - first:
+      33: 3300032
+    second: sr_cylinder02
+  - first:
+      33: 3300034
+    second: sr_hammer
+  - first:
+      33: 3300036
+    second: sr_hammer02
+  - first:
+      33: 3300038
+    second: sr_holster
+  - first:
+      33: 3300040
+    second: st_blade_01
+  - first:
+      33: 3300042
+    second: st_blade_02
+  - first:
+      33: 3300044
+    second: st_blade_03
+  - first:
+      33: 3300046
+    second: st_blade_04
+  - first:
+      33: 3300048
+    second: st_blade_05
+  - first:
+      33: 3300050
+    second: st_blade_06
+  - first:
+      33: 3300052
+    second: st_blade_07
+  - first:
+      33: 3300054
+    second: st_blade_08
+  - first:
+      33: 3300056
+    second: st_blade_09
+  - first:
+      33: 3300058
+    second: st_hilt_01
+  - first:
+      33: 3300060
+    second: st_hilt_02
+  - first:
+      33: 3300062
+    second: st_hilt_03
+  - first:
+      33: 3300064
+    second: st_hilt_04
+  - first:
+      33: 3300066
+    second: st_hilt_05
+  - first:
+      33: 3300068
+    second: st_hilt_06
+  - first:
+      33: 3300070
+    second: steam_sword
+  - first:
+      33: 3300072
+    second: steam_sword01
+  - first:
+      33: 3300074
+    second: steam_sword02
+  - first:
+      33: 3300076
+    second: Syeam_Revolver
+  - first:
+      33: 3300078
+    second: Syeam_Revolver02
+  - first:
+      43: 4300000
+    second: Captain_body
+  - first:
+      43: 4300002
+    second: Captain_Clothes
+  - first:
+      43: 4300004
+    second: Captain_belt
+  - first:
+      43: 4300006
+    second: Captain_shoulders
+  - first:
+      43: 4300008
+    second: captain_gloves
+  - first:
+      43: 4300010
+    second: Captain_boots
+  - first:
+      43: 4300012
+    second: Captain_armor_B
+  - first:
+      43: 4300014
+    second: Captain_Battle_suite
+  - first:
+      43: 4300016
+    second: Captain_gloves_B
+  - first:
+      43: 4300018
+    second: Captain_boots_B
+  - first:
+      43: 4300020
+    second: Captain_belt_B
+  - first:
+      43: 4300022
+    second: Captain_Shoulders_B
+  - first:
+      43: 4300024
+    second: Captain_Helmet
+  - first:
+      43: 4300026
+    second: Captain_jetpack
+  - first:
+      43: 4300028
+    second: steam_sword02
+  - first:
+      43: 4300030
+    second: st_hilt_05
+  - first:
+      43: 4300032
+    second: st_hilt_06
+  - first:
+      43: 4300034
+    second: st_blade_07
+  - first:
+      43: 4300036
+    second: st_blade_08
+  - first:
+      43: 4300038
+    second: st_blade_09
+  - first:
+      43: 4300040
+    second: Syeam_Revolver02
+  - first:
+      43: 4300042
+    second: sr_barrel02
+  - first:
+      43: 4300044
+    second: sr_cylinder02
+  - first:
+      43: 4300046
+    second: bullet_12
+  - first:
+      43: 4300048
+    second: bullet_13
+  - first:
+      43: 4300050
+    second: bullet_14
+  - first:
+      43: 4300052
+    second: bullet_15
+  - first:
+      43: 4300054
+    second: bullet_16
+  - first:
+      43: 4300056
+    second: bullet_17
+  - first:
+      43: 4300058
+    second: sr_hammer02
+  - first:
+      43: 4300060
+    second: steam_sword
+  - first:
+      43: 4300062
+    second: st_hilt_02
+  - first:
+      43: 4300064
+    second: st_hilt_01
+  - first:
+      43: 4300066
+    second: st_blade_03
+  - first:
+      43: 4300068
+    second: st_blade_01
+  - first:
+      43: 4300070
+    second: st_blade_02
+  - first:
+      43: 4300072
+    second: steam_sword01
+  - first:
+      43: 4300074
+    second: st_hilt_03
+  - first:
+      43: 4300076
+    second: st_hilt_04
+  - first:
+      43: 4300078
+    second: st_blade_04
+  - first:
+      43: 4300080
+    second: st_blade_05
+  - first:
+      43: 4300082
+    second: st_blade_06
+  - first:
+      43: 4300084
+    second: sr_holster
+  - first:
+      43: 4300086
+    second: Syeam_Revolver
+  - first:
+      43: 4300088
+    second: sr_barrel
+  - first:
+      43: 4300090
+    second: sr_cylinder
+  - first:
+      43: 4300092
+    second: bullet_00
+  - first:
+      43: 4300094
+    second: bullet_01
+  - first:
+      43: 4300096
+    second: bullet_02
+  - first:
+      43: 4300098
+    second: bullet_03
+  - first:
+      43: 4300100
+    second: bullet_04
+  - first:
+      43: 4300102
+    second: bullet_05
+  - first:
+      43: 4300104
+    second: sr_hammer
+  - first:
+      74: 7400000
+    second: Captain_Scott_Dow_01
+  - first:
+      74: 7400002
+    second: Captain_S_IDLE
+  - first:
+      74: 7400004
+    second: Captain_S_arm_kick_right
+  - first:
+      74: 7400006
+    second: Captain_S_boring
+  - first:
+      74: 7400008
+    second: Captain_S_Drinking
+  - first:
+      74: 7400010
+    second: Captain_S_Eating
+  - first:
+      74: 7400012
+    second: Captain_S_Explanation
+  - first:
+      74: 7400014
+    second: Captain_S_Jump_standing
+  - first:
+      74: 7400016
+    second: Captain_S_looking_around
+  - first:
+      74: 7400018
+    second: Captain_S_Pick_object
+  - first:
+      74: 7400020
+    second: Captain_S_pointing_A
+  - first:
+      74: 7400022
+    second: Captain_S_salute
+  - first:
+      74: 7400024
+    second: Captain_S_Say_No
+  - first:
+      74: 7400026
+    second: Captain_S_Shrugs
+  - first:
+      74: 7400028
+    second: Captain_S_sit_down
+  - first:
+      74: 7400030
+    second: Captain_S_Sitting
+  - first:
+      74: 7400032
+    second: Captain_S_Came_up
+  - first:
+      74: 7400034
+    second: Captain_S_Talking
+  - first:
+      74: 7400036
+    second: Captain_S_Talking_B
+  - first:
+      74: 7400038
+    second: Captain_S_Use_object
+  - first:
+      74: 7400040
+    second: Captain_S_warning
+  - first:
+      74: 7400042
+    second: Captain_S_waving
+  - first:
+      74: 7400044
+    second: Captain_M_Climbing_abyss_idle
+  - first:
+      74: 7400046
+    second: Captain_M_Climbing_abyss_left
+  - first:
+      74: 7400048
+    second: Captain_M_Climbing_abyss_right
+  - first:
+      74: 7400050
+    second: Captain_M_Climbing_ladder_down
+  - first:
+      74: 7400052
+    second: Captain_M_Climbing_ladder_up
+  - first:
+      74: 7400054
+    second: Captain_M_Climbing_rope
+  - first:
+      74: 7400056
+    second: Captain_M_falling_down
+  - first:
+      74: 7400058
+    second: Captain_M_fly_forward
+  - first:
+      74: 7400060
+    second: Captain_M_fly_left
+  - first:
+      74: 7400062
+    second: Captain_M_fly_right
+  - first:
+      74: 7400064
+    second: Captain_M_making_item
+  - first:
+      74: 7400066
+    second: Captain_M_Moving_left
+  - first:
+      74: 7400068
+    second: Captain_M_Moving_right
+  - first:
+      74: 7400070
+    second: Captain_M_sleeping
+  - first:
+      74: 7400072
+    second: Captain_M_Sneaking
+  - first:
+      74: 7400074
+    second: Captain_M_Swimming
+  - first:
+      74: 7400076
+    second: Captain_F_Puting_Weapons_back
+  - first:
+      74: 7400078
+    second: Captain_F_Taking_weapons_out
+  - first:
+      74: 7400080
+    second: Captain_F_COMBAT_mode_staynig
+  - first:
+      74: 7400082
+    second: Captain_F_FromStand_toSquat_A
+  - first:
+      74: 7400084
+    second: Captain_F_COMBAT_mode_squat
+  - first:
+      74: 7400086
+    second: Captain_F_fire_Squat
+  - first:
+      74: 7400088
+    second: Captain_F_lookingAround_Squat
+  - first:
+      74: 7400090
+    second: Captain_F_Reload_squat
+  - first:
+      74: 7400092
+    second: Captain_F_FromSquatA_toStaing
+  - first:
+      74: 7400094
+    second: Captain_F_dodge_to_left
+  - first:
+      74: 7400096
+    second: Captain_F_dodge_to_right
+  - first:
+      74: 7400098
+    second: Captain_F_duck_below_high_swing
+  - first:
+      74: 7400100
+    second: Captain_F_Hit_from_back
+  - first:
+      74: 7400102
+    second: Captain_F_Hit_from_front
+  - first:
+      74: 7400104
+    second: Captain_F_Hit_from_left
+  - first:
+      74: 7400106
+    second: Captain_F_Hit_from_righ
+  - first:
+      74: 7400108
+    second: Captain_F_L_parry_from_stright_down
+  - first:
+      74: 7400110
+    second: Captain_F_L_parry_high_left
+  - first:
+      74: 7400112
+    second: Captain_F_L_parry_mid_front
+  - first:
+      74: 7400114
+    second: Captain_F_L_swing_high_left
+  - first:
+      74: 7400116
+    second: Captain_F_L_swing_high_right
+  - first:
+      74: 7400118
+    second: Captain_F_L_swing_high_straight_down
+  - first:
+      74: 7400120
+    second: Captain_F_L_swing_low_left
+  - first:
+      74: 7400122
+    second: Captain_F_L_swing_low_right
+  - first:
+      74: 7400124
+    second: Captain_F_L_thrust_high
+  - first:
+      74: 7400126
+    second: Captain_F_L_thrust_low
+  - first:
+      74: 7400128
+    second: Captain_F_L_thrust_mid
+  - first:
+      74: 7400130
+    second: Captain_F_LeftFoot_Kick
+  - first:
+      74: 7400132
+    second: Captain_F_Looking_around_staying
+  - first:
+      74: 7400134
+    second: Captain_F_RightFoot_kick
+  - first:
+      74: 7400136
+    second: Captain_F_fire_staying
+  - first:
+      74: 7400138
+    second: Captain_F_Reload_gun_staying
+  - first:
+      74: 7400140
+    second: Captain_F_Knocked_backward
+  - first:
+      74: 7400142
+    second: Captain_F_Down_back
+  - first:
+      74: 7400144
+    second: Captain_F_Recover_from_knocked_backward
+  - first:
+      74: 7400146
+    second: Captain_F_Knocked_forward
+  - first:
+      74: 7400148
+    second: Captain_F_Down_forward
+  - first:
+      74: 7400150
+    second: Captain_F_Recover_from_knocked_forward
+  - first:
+      74: 7400152
+    second: Captain_FM_Casual_walk
+  - first:
+      74: 7400154
+    second: Captain_FM_Cautious_walk
+  - first:
+      74: 7400156
+    second: Captain_FM_Fire_walk
+  - first:
+      74: 7400158
+    second: Captain_FM_Combat_run
+  - first:
+      74: 7400160
+    second: Captain_FM_Fire_run
+  - first:
+      74: 7400162
+    second: Captain_FM_run
+  - first:
+      74: 7400164
+    second: Captain_FM_Jump_runing
+  - first:
+      74: 7400166
+    second: Captain_FM_Fire_walking_back
+  - first:
+      74: 7400168
+    second: Captain_FM_Walking_back
+  - first:
+      74: 7400170
+    second: Captain_FM_Die_knocked_backward
+  - first:
+      74: 7400172
+    second: Captain_FM_Die_knocked_forward
+  - first:
+      74: 7400174
+    second: Captain_FM_Die_on_back
+  - first:
+      74: 7400176
+    second: Captain_FM_Die_on_belt
+  - first:
+      74: 7400178
+    second: Captain_FM_Die_squat
+  - first:
+      74: 7400180
+    second: RM_Captain_FM_Casual_walk
+  - first:
+      74: 7400182
+    second: RM_Captain_FM_Cautious_walk
+  - first:
+      74: 7400184
+    second: RM_Captain_FM_Combat_run
+  - first:
+      74: 7400186
+    second: RM_Captain_FM_Die_knocked_backward
+  - first:
+      74: 7400188
+    second: RM_Captain_FM_Die_knocked_forward
+  - first:
+      74: 7400190
+    second: RM_Captain_FM_Fire_run
+  - first:
+      74: 7400192
+    second: RM_Captain_FM_Fire_walk
+  - first:
+      74: 7400194
+    second: RM_Captain_FM_Fire_walking_back
+  - first:
+      74: 7400196
+    second: RM_Captain_FM_Jump_runing
+  - first:
+      74: 7400198
+    second: RM_Captain_FM_run
+  - first:
+      74: 7400200
+    second: RM_Captain_FM_Walking_back
+  - first:
+      74: 7400202
+    second: RM_Captain_M_Climbing_abyss_left
+  - first:
+      74: 7400204
+    second: RM_Captain_M_Climbing_abyss_right
+  - first:
+      74: 7400206
+    second: RM_Captain_M_Climbing_ladder_down
+  - first:
+      74: 7400208
+    second: RM_Captain_M_Climbing_ladder_up
+  - first:
+      74: 7400210
+    second: RM_Captain_M_Climbing_rope
+  - first:
+      74: 7400212
+    second: RM_Captain_M_Moving_left
+  - first:
+      74: 7400214
+    second: RM_Captain_M_Moving_right
+  - first:
+      74: 7400216
+    second: RM_Captain_M_Sneaking
+  - first:
+      74: 7400218
+    second: RM_Captain_M_Swimming
+  - first:
+      74: 7400220
+    second: RM_Captain_F_Knocked_forward
+  - first:
+      74: 7400222
+    second: RM_Captain_F_Knocked_backward
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Captain_armor_B
+  - first:
+      137: 13700002
+    second: Captain_Battle_suite
+  - first:
+      137: 13700004
+    second: Captain_belt
+  - first:
+      137: 13700006
+    second: Captain_belt_B
+  - first:
+      137: 13700008
+    second: Captain_body
+  - first:
+      137: 13700010
+    second: Captain_boots
+  - first:
+      137: 13700012
+    second: Captain_boots_B
+  - first:
+      137: 13700014
+    second: Captain_Clothes
+  - first:
+      137: 13700016
+    second: captain_gloves
+  - first:
+      137: 13700018
+    second: Captain_gloves_B
+  - first:
+      137: 13700020
+    second: Captain_Helmet
+  - first:
+      137: 13700022
+    second: Captain_shoulders
+  - first:
+      137: 13700024
+    second: Captain_Shoulders_B
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -608,6 +1594,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_IDLE
       takeName: 
+      internalID: 7400002
       firstFrame: 0
       lastFrame: 100
       wrapMode: 2
@@ -636,6 +1623,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_arm_kick_right
       takeName: 
+      internalID: 7400004
       firstFrame: 101
       lastFrame: 126
       wrapMode: 2
@@ -664,6 +1652,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_boring
       takeName: 
+      internalID: 7400006
       firstFrame: 127
       lastFrame: 252
       wrapMode: 2
@@ -692,6 +1681,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Drinking
       takeName: 
+      internalID: 7400008
       firstFrame: 253
       lastFrame: 308
       wrapMode: 2
@@ -720,6 +1710,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Eating
       takeName: 
+      internalID: 7400010
       firstFrame: 309
       lastFrame: 429
       wrapMode: 2
@@ -748,6 +1739,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Explanation
       takeName: 
+      internalID: 7400012
       firstFrame: 430
       lastFrame: 475
       wrapMode: 2
@@ -776,6 +1768,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Jump_standing
       takeName: 
+      internalID: 7400014
       firstFrame: 476
       lastFrame: 551
       wrapMode: 2
@@ -804,6 +1797,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_looking_around
       takeName: 
+      internalID: 7400016
       firstFrame: 552
       lastFrame: 728
       wrapMode: 2
@@ -832,6 +1826,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Pick_object
       takeName: 
+      internalID: 7400018
       firstFrame: 729
       lastFrame: 769
       wrapMode: 2
@@ -860,6 +1855,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_pointing_A
       takeName: 
+      internalID: 7400020
       firstFrame: 770
       lastFrame: 830
       wrapMode: 2
@@ -888,6 +1884,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_salute
       takeName: 
+      internalID: 7400022
       firstFrame: 831
       lastFrame: 891
       wrapMode: 2
@@ -916,6 +1913,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Say_No
       takeName: 
+      internalID: 7400024
       firstFrame: 892
       lastFrame: 942
       wrapMode: 2
@@ -944,6 +1942,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Shrugs
       takeName: 
+      internalID: 7400026
       firstFrame: 943
       lastFrame: 988
       wrapMode: 2
@@ -972,6 +1971,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_sit_down
       takeName: 
+      internalID: 7400028
       firstFrame: 989
       lastFrame: 1014
       wrapMode: 1
@@ -1000,6 +2000,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Sitting
       takeName: 
+      internalID: 7400030
       firstFrame: 1015
       lastFrame: 1065
       wrapMode: 2
@@ -1028,6 +2029,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Came_up
       takeName: 
+      internalID: 7400032
       firstFrame: 1066
       lastFrame: 1092
       wrapMode: 1
@@ -1056,6 +2058,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Talking
       takeName: 
+      internalID: 7400034
       firstFrame: 1093
       lastFrame: 1138
       wrapMode: 2
@@ -1084,6 +2087,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Talking_B
       takeName: 
+      internalID: 7400036
       firstFrame: 1139
       lastFrame: 1274
       wrapMode: 2
@@ -1112,6 +2116,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_Use_object
       takeName: 
+      internalID: 7400038
       firstFrame: 1275
       lastFrame: 1315
       wrapMode: 2
@@ -1140,6 +2145,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_warning
       takeName: 
+      internalID: 7400040
       firstFrame: 1316
       lastFrame: 1376
       wrapMode: 2
@@ -1168,6 +2174,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_S_waving
       takeName: 
+      internalID: 7400042
       firstFrame: 1377
       lastFrame: 1422
       wrapMode: 2
@@ -1196,6 +2203,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Climbing_abyss_idle
       takeName: 
+      internalID: 7400044
       firstFrame: 1427
       lastFrame: 1502
       wrapMode: 2
@@ -1224,6 +2232,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Climbing_abyss_left
       takeName: 
+      internalID: 7400046
       firstFrame: 1507
       lastFrame: 1532
       wrapMode: 2
@@ -1252,6 +2261,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Climbing_abyss_right
       takeName: 
+      internalID: 7400048
       firstFrame: 1537
       lastFrame: 1562
       wrapMode: 2
@@ -1280,6 +2290,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Climbing_ladder_down
       takeName: 
+      internalID: 7400050
       firstFrame: 1567
       lastFrame: 1607
       wrapMode: 2
@@ -1308,6 +2319,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Climbing_ladder_up
       takeName: 
+      internalID: 7400052
       firstFrame: 1612
       lastFrame: 1652
       wrapMode: 2
@@ -1336,6 +2348,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Climbing_rope
       takeName: 
+      internalID: 7400054
       firstFrame: 1657
       lastFrame: 1687
       wrapMode: 2
@@ -1364,6 +2377,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_falling_down
       takeName: 
+      internalID: 7400056
       firstFrame: 1692
       lastFrame: 1732
       wrapMode: 2
@@ -1392,6 +2406,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_fly_forward
       takeName: 
+      internalID: 7400058
       firstFrame: 1737
       lastFrame: 1837
       wrapMode: 2
@@ -1420,6 +2435,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_fly_left
       takeName: 
+      internalID: 7400060
       firstFrame: 1842
       lastFrame: 1941.9999
       wrapMode: 2
@@ -1448,6 +2464,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_fly_right
       takeName: 
+      internalID: 7400062
       firstFrame: 1947
       lastFrame: 2046.9999
       wrapMode: 2
@@ -1476,6 +2493,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_making_item
       takeName: 
+      internalID: 7400064
       firstFrame: 2053
       lastFrame: 2082
       wrapMode: 2
@@ -1504,6 +2522,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Moving_left
       takeName: 
+      internalID: 7400066
       firstFrame: 2087
       lastFrame: 2107
       wrapMode: 2
@@ -1532,6 +2551,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Moving_right
       takeName: 
+      internalID: 7400068
       firstFrame: 2108
       lastFrame: 2128
       wrapMode: 2
@@ -1560,6 +2580,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_sleeping
       takeName: 
+      internalID: 7400070
       firstFrame: 2134
       lastFrame: 2207
       wrapMode: 2
@@ -1588,6 +2609,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Sneaking
       takeName: 
+      internalID: 7400072
       firstFrame: 2214
       lastFrame: 2263
       wrapMode: 2
@@ -1616,6 +2638,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_M_Swimming
       takeName: 
+      internalID: 7400074
       firstFrame: 2269
       lastFrame: 2298
       wrapMode: 2
@@ -1644,6 +2667,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Puting_Weapons_back
       takeName: 
+      internalID: 7400076
       firstFrame: 2303
       lastFrame: 2353
       wrapMode: 1
@@ -1672,6 +2696,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Taking_weapons_out
       takeName: 
+      internalID: 7400078
       firstFrame: 2354
       lastFrame: 2399
       wrapMode: 1
@@ -1700,6 +2725,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_COMBAT_mode_staynig
       takeName: 
+      internalID: 7400080
       firstFrame: 2400
       lastFrame: 2450
       wrapMode: 2
@@ -1728,6 +2754,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_FromStand_toSquat_A
       takeName: 
+      internalID: 7400082
       firstFrame: 2451
       lastFrame: 2491
       wrapMode: 1
@@ -1756,6 +2783,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_COMBAT_mode_squat
       takeName: 
+      internalID: 7400084
       firstFrame: 2492
       lastFrame: 2542
       wrapMode: 2
@@ -1784,6 +2812,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_fire_Squat
       takeName: 
+      internalID: 7400086
       firstFrame: 2547
       lastFrame: 2584
       wrapMode: 2
@@ -1812,6 +2841,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_lookingAround_Squat
       takeName: 
+      internalID: 7400088
       firstFrame: 2585
       lastFrame: 2670
       wrapMode: 2
@@ -1840,6 +2870,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Reload_squat
       takeName: 
+      internalID: 7400090
       firstFrame: 2671
       lastFrame: 2756
       wrapMode: 2
@@ -1868,6 +2899,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_FromSquatA_toStaing
       takeName: 
+      internalID: 7400092
       firstFrame: 2761
       lastFrame: 2798
       wrapMode: 1
@@ -1896,6 +2928,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_dodge_to_left
       takeName: 
+      internalID: 7400094
       firstFrame: 2799
       lastFrame: 2834
       wrapMode: 2
@@ -1924,6 +2957,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_dodge_to_right
       takeName: 
+      internalID: 7400096
       firstFrame: 2835
       lastFrame: 2870
       wrapMode: 2
@@ -1952,6 +2986,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_duck_below_high_swing
       takeName: 
+      internalID: 7400098
       firstFrame: 2871
       lastFrame: 2906
       wrapMode: 2
@@ -1980,6 +3015,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Hit_from_back
       takeName: 
+      internalID: 7400100
       firstFrame: 2907
       lastFrame: 2942
       wrapMode: 2
@@ -2008,6 +3044,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Hit_from_front
       takeName: 
+      internalID: 7400102
       firstFrame: 2943
       lastFrame: 2978
       wrapMode: 2
@@ -2036,6 +3073,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Hit_from_left
       takeName: 
+      internalID: 7400104
       firstFrame: 2979
       lastFrame: 3014
       wrapMode: 2
@@ -2064,6 +3102,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Hit_from_righ
       takeName: 
+      internalID: 7400106
       firstFrame: 3015
       lastFrame: 3050
       wrapMode: 2
@@ -2092,6 +3131,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_parry_from_stright_down
       takeName: 
+      internalID: 7400108
       firstFrame: 3051
       lastFrame: 3086
       wrapMode: 2
@@ -2120,6 +3160,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_parry_high_left
       takeName: 
+      internalID: 7400110
       firstFrame: 3087
       lastFrame: 3122
       wrapMode: 2
@@ -2148,6 +3189,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_parry_mid_front
       takeName: 
+      internalID: 7400112
       firstFrame: 3123
       lastFrame: 3158
       wrapMode: 2
@@ -2176,6 +3218,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_swing_high_left
       takeName: 
+      internalID: 7400114
       firstFrame: 3159
       lastFrame: 3194
       wrapMode: 2
@@ -2204,6 +3247,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_swing_high_right
       takeName: 
+      internalID: 7400116
       firstFrame: 3195
       lastFrame: 3230
       wrapMode: 2
@@ -2232,6 +3276,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_swing_high_straight_down
       takeName: 
+      internalID: 7400118
       firstFrame: 3231
       lastFrame: 3266
       wrapMode: 2
@@ -2260,6 +3305,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_swing_low_left
       takeName: 
+      internalID: 7400120
       firstFrame: 3267
       lastFrame: 3302
       wrapMode: 2
@@ -2288,6 +3334,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_swing_low_right
       takeName: 
+      internalID: 7400122
       firstFrame: 3303
       lastFrame: 3338
       wrapMode: 2
@@ -2316,6 +3363,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_thrust_high
       takeName: 
+      internalID: 7400124
       firstFrame: 3339
       lastFrame: 3374
       wrapMode: 2
@@ -2344,6 +3392,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_thrust_low
       takeName: 
+      internalID: 7400126
       firstFrame: 3375
       lastFrame: 3410
       wrapMode: 2
@@ -2372,6 +3421,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_L_thrust_mid
       takeName: 
+      internalID: 7400128
       firstFrame: 3411
       lastFrame: 3446
       wrapMode: 2
@@ -2400,6 +3450,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_LeftFoot_Kick
       takeName: 
+      internalID: 7400130
       firstFrame: 3447
       lastFrame: 3477
       wrapMode: 2
@@ -2428,6 +3479,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Looking_around_staying
       takeName: 
+      internalID: 7400132
       firstFrame: 3478
       lastFrame: 3563
       wrapMode: 2
@@ -2456,6 +3508,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_RightFoot_kick
       takeName: 
+      internalID: 7400134
       firstFrame: 3564
       lastFrame: 3594
       wrapMode: 2
@@ -2484,6 +3537,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_fire_staying
       takeName: 
+      internalID: 7400136
       firstFrame: 3599
       lastFrame: 3636
       wrapMode: 2
@@ -2512,6 +3566,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Reload_gun_staying
       takeName: 
+      internalID: 7400138
       firstFrame: 3637
       lastFrame: 3722
       wrapMode: 2
@@ -2540,6 +3595,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Knocked_backward
       takeName: 
+      internalID: 7400140
       firstFrame: 3727
       lastFrame: 3767
       wrapMode: 1
@@ -2568,6 +3624,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Down_back
       takeName: 
+      internalID: 7400142
       firstFrame: 3768
       lastFrame: 3808
       wrapMode: 2
@@ -2596,6 +3653,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Recover_from_knocked_backward
       takeName: 
+      internalID: 7400144
       firstFrame: 3809
       lastFrame: 3849
       wrapMode: 1
@@ -2624,6 +3682,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Knocked_forward
       takeName: 
+      internalID: 7400146
       firstFrame: 3849.9998
       lastFrame: 3878
       wrapMode: 1
@@ -2652,6 +3711,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Down_forward
       takeName: 
+      internalID: 7400148
       firstFrame: 3879
       lastFrame: 3919
       wrapMode: 2
@@ -2680,6 +3740,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_F_Recover_from_knocked_forward
       takeName: 
+      internalID: 7400150
       firstFrame: 3920.0002
       lastFrame: 3952
       wrapMode: 1
@@ -2708,6 +3769,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Casual_walk
       takeName: 
+      internalID: 7400152
       firstFrame: 3956.9998
       lastFrame: 3993.0002
       wrapMode: 2
@@ -2736,6 +3798,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Cautious_walk
       takeName: 
+      internalID: 7400154
       firstFrame: 3998
       lastFrame: 4038.0002
       wrapMode: 2
@@ -2764,6 +3827,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Fire_walk
       takeName: 
+      internalID: 7400156
       firstFrame: 4043
       lastFrame: 4083.0002
       wrapMode: 2
@@ -2792,6 +3856,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Combat_run
       takeName: 
+      internalID: 7400158
       firstFrame: 4088
       lastFrame: 4114
       wrapMode: 2
@@ -2820,6 +3885,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Fire_run
       takeName: 
+      internalID: 7400160
       firstFrame: 4119
       lastFrame: 4145
       wrapMode: 2
@@ -2848,6 +3914,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_run
       takeName: 
+      internalID: 7400162
       firstFrame: 4150
       lastFrame: 4176
       wrapMode: 2
@@ -2876,6 +3943,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Jump_runing
       takeName: 
+      internalID: 7400164
       firstFrame: 4181
       lastFrame: 4221
       wrapMode: 1
@@ -2904,6 +3972,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Fire_walking_back
       takeName: 
+      internalID: 7400166
       firstFrame: 4226
       lastFrame: 4261
       wrapMode: 2
@@ -2932,6 +4001,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Walking_back
       takeName: 
+      internalID: 7400168
       firstFrame: 4266
       lastFrame: 4301
       wrapMode: 2
@@ -2960,6 +4030,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Die_knocked_backward
       takeName: 
+      internalID: 7400170
       firstFrame: 4306
       lastFrame: 4323
       wrapMode: 1
@@ -2988,6 +4059,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Die_knocked_forward
       takeName: 
+      internalID: 7400172
       firstFrame: 4328
       lastFrame: 4345
       wrapMode: 1
@@ -3016,6 +4088,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Die_on_back
       takeName: 
+      internalID: 7400174
       firstFrame: 4350
       lastFrame: 4388
       wrapMode: 1
@@ -3044,6 +4117,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Die_on_belt
       takeName: 
+      internalID: 7400176
       firstFrame: 4393
       lastFrame: 4500
       wrapMode: 1
@@ -3072,6 +4146,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Captain_FM_Die_squat
       takeName: 
+      internalID: 7400178
       firstFrame: 4505
       lastFrame: 4538
       wrapMode: 1
@@ -3100,6 +4175,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Casual_walk
       takeName: Captain_Scott_Dow
+      internalID: 7400180
       firstFrame: 4543
       lastFrame: 4579
       wrapMode: 0
@@ -3439,6 +4515,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Cautious_walk
       takeName: Captain_Scott_Dow
+      internalID: 7400182
       firstFrame: 4584
       lastFrame: 4624
       wrapMode: 0
@@ -3778,6 +4855,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Combat_run
       takeName: Captain_Scott_Dow
+      internalID: 7400184
       firstFrame: 4629
       lastFrame: 4655
       wrapMode: 0
@@ -4117,6 +5195,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Die_knocked_backward
       takeName: Captain_Scott_Dow
+      internalID: 7400186
       firstFrame: 4660
       lastFrame: 4677
       wrapMode: 0
@@ -4456,6 +5535,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Die_knocked_forward
       takeName: Captain_Scott_Dow
+      internalID: 7400188
       firstFrame: 4682
       lastFrame: 4699
       wrapMode: 0
@@ -4795,6 +5875,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Fire_run
       takeName: Captain_Scott_Dow
+      internalID: 7400190
       firstFrame: 4704
       lastFrame: 4730
       wrapMode: 0
@@ -5134,6 +6215,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Fire_walk
       takeName: Captain_Scott_Dow
+      internalID: 7400192
       firstFrame: 4735
       lastFrame: 4775
       wrapMode: 0
@@ -5473,6 +6555,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Fire_walking_back
       takeName: Captain_Scott_Dow
+      internalID: 7400194
       firstFrame: 4780
       lastFrame: 4815
       wrapMode: 0
@@ -5812,6 +6895,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Jump_runing
       takeName: Captain_Scott_Dow
+      internalID: 7400196
       firstFrame: 4820
       lastFrame: 4860
       wrapMode: 0
@@ -6151,6 +7235,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_run
       takeName: Captain_Scott_Dow
+      internalID: 7400198
       firstFrame: 4865
       lastFrame: 4891
       wrapMode: 0
@@ -6490,6 +7575,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_FM_Walking_back
       takeName: Captain_Scott_Dow
+      internalID: 7400200
       firstFrame: 4896
       lastFrame: 4931
       wrapMode: 0
@@ -6829,6 +7915,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_abyss_left
       takeName: Captain_Scott_Dow
+      internalID: 7400202
       firstFrame: 4936
       lastFrame: 4961
       wrapMode: 0
@@ -7168,6 +8255,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_abyss_right
       takeName: Captain_Scott_Dow
+      internalID: 7400204
       firstFrame: 4966
       lastFrame: 4991
       wrapMode: 0
@@ -7507,6 +8595,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_ladder_down
       takeName: Captain_Scott_Dow
+      internalID: 7400206
       firstFrame: 4996
       lastFrame: 5036
       wrapMode: 0
@@ -7846,6 +8935,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_ladder_up
       takeName: Captain_Scott_Dow
+      internalID: 7400208
       firstFrame: 5041
       lastFrame: 5081
       wrapMode: 0
@@ -8185,6 +9275,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Climbing_rope
       takeName: Captain_Scott_Dow
+      internalID: 7400210
       firstFrame: 5086
       lastFrame: 5116
       wrapMode: 0
@@ -8524,6 +9615,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Moving_left
       takeName: Captain_Scott_Dow
+      internalID: 7400212
       firstFrame: 5121
       lastFrame: 5141
       wrapMode: 0
@@ -8863,6 +9955,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Moving_right
       takeName: Captain_Scott_Dow
+      internalID: 7400214
       firstFrame: 5146
       lastFrame: 5166
       wrapMode: 0
@@ -9202,6 +10295,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Sneaking
       takeName: Captain_Scott_Dow
+      internalID: 7400216
       firstFrame: 5171
       lastFrame: 5221
       wrapMode: 0
@@ -9541,6 +10635,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_M_Swimming
       takeName: Captain_Scott_Dow
+      internalID: 7400218
       firstFrame: 5227
       lastFrame: 5256
       wrapMode: 0
@@ -9880,6 +10975,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_F_Knocked_forward
       takeName: Captain_Scott_Dow
+      internalID: 7400220
       firstFrame: 5261
       lastFrame: 5289
       wrapMode: 0
@@ -10219,6 +11315,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Captain_F_Knocked_backward
       takeName: Captain_Scott_Dow
+      internalID: 7400222
       firstFrame: 5294
       lastFrame: 5334
       wrapMode: 0
@@ -10569,18 +11666,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -10589,10 +11687,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Bip01 Pelvis
       humanName: Hips
@@ -11624,6 +12723,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
