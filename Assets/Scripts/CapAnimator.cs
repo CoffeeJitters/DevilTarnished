@@ -23,6 +23,8 @@ public class CapAnimator : MonoBehaviour
         isIdle = true;
         isRunning = false;
         runJump = false;
+        ani.SetBool("isRunning", false);
+        ani.SetBool("isIdle", true);
     }
 
     // Update is called once per frame
@@ -89,7 +91,8 @@ public class CapAnimator : MonoBehaviour
                     runJump = false;
                 }
             }
-            if (contr.isGrounded == true)
+            //if (contr.isGrounded == true)
+            else
             {
                 isIdle = true;
                 onGround = true;
@@ -98,6 +101,7 @@ public class CapAnimator : MonoBehaviour
                 isJumping = false;
                 ani.SetBool("isIdle", true);
                 ani.SetBool("isRunning", false);
+                Debug.Log("IM STANDING STILL");
             }
             //isIdle = true;
             //onGround = true;
@@ -106,7 +110,7 @@ public class CapAnimator : MonoBehaviour
             // isJumping = false;
             // ani.SetBool("isIdle", true);
             // ani.SetBool("isRunning", false);
-            Debug.Log("IM STANDING STILL");
+            //Debug.Log("IM STANDING STILL");
         }
     }
 }
