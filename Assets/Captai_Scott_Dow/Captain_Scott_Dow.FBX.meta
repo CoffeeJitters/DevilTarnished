@@ -1769,8 +1769,8 @@ ModelImporter:
       name: Captain_S_Jump_standing
       takeName: 
       internalID: 7400014
-      firstFrame: 476
-      lastFrame: 551
+      firstFrame: 485
+      lastFrame: 600
       wrapMode: 2
       orientationOffsetY: 0
       level: 0

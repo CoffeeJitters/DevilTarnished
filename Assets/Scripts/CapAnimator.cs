@@ -53,7 +53,7 @@ public class CapAnimator : MonoBehaviour
         }
         else if (Input.GetButton("Jump"))
         {
-            ani.SetTrigger("isJumping");
+            //ani.SetTrigger("isJumping");
             ani.SetBool("isIdle", false);
             ani.SetBool("isRunning", false);
             onGround = false;
@@ -64,21 +64,48 @@ public class CapAnimator : MonoBehaviour
         }
         else //no button is pressed, just standing there or in jump sequence
         {
-            if (isJumping == true)
+            if (contr.isGrounded == false)
             {
-                ani.SetTrigger("isJumping");
+                if (isJumping == true)
+                {
+                    ani.SetTrigger("isJumping");
+                    ani.SetBool("isIdle", false);
+                    ani.SetBool("isRunning", false);
+                    onGround = false;
+                    isJumping = true;
+                    isIdle = false;
+                    isRunning = false;
+                    runJump = false;
+                }
+                if (runJump == true)
+                {
+                    ani.SetTrigger("runJump");
+                    ani.SetBool("isIdle", false);
+                    ani.SetBool("isRunning", false);
+                    onGround = false;
+                    isJumping = true;
+                    isIdle = false;
+                    isRunning = false;
+                    runJump = false;
+                }
             }
-            if (runJump == true)
+            if (contr.isGrounded == true)
             {
-                ani.SetTrigger("runJump");
+                isIdle = true;
+                onGround = true;
+                isRunning = false;
+                runJump = false;
+                isJumping = false;
+                ani.SetBool("isIdle", true);
+                ani.SetBool("isRunning", false);
             }
             //isIdle = true;
             //onGround = true;
-           // isRunning = false;
-           // runJump = false;
-           // isJumping = false;
-           // ani.SetBool("isIdle", true);
-           // ani.SetBool("isRunning", false);
+            // isRunning = false;
+            // runJump = false;
+            // isJumping = false;
+            // ani.SetBool("isIdle", true);
+            // ani.SetBool("isRunning", false);
             Debug.Log("IM STANDING STILL");
         }
     }
