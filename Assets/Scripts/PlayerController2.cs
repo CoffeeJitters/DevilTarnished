@@ -48,9 +48,11 @@ public class PlayerController2 : MonoBehaviour
             Debug.Log(direction);
         }
 
-        bool isGrounded = Physics.CheckSphere(feet.position, 0.1f, ground, QueryTriggerInteraction.Ignore);
+      
+        
+        bool isGrounded = Physics.CheckSphere(feet.position, 0.1f, ground, QueryTriggerInteraction.Ignore);//was feet.position
 
-        if (isGrounded)
+        if (controller.isGrounded)//was only isGrounded
             fallingVelocity.y = 0f;
         else
             fallingVelocity.y -= gravity * Time.deltaTime;

@@ -54,14 +54,18 @@ public class CapAnimator : MonoBehaviour
         }
         else if (Input.GetButton("Jump"))
         {
-            ani.SetTrigger("isJumping");
-            ani.SetBool("isIdle", false);
-            ani.SetBool("isRunning", false);
-            onGround = false;
-            isJumping = true;
-            isIdle = false;
-            isRunning = false;
-            runJump = false;
+            if (isJumping == false)
+            {
+                ani.SetTrigger("isJumping");
+                ani.SetBool("isIdle", false);
+                ani.SetBool("isRunning", false);
+                onGround = false;
+                isJumping = true;
+                isIdle = false;
+                isRunning = false;
+                runJump = false;
+                Debug.Log("IM IN THE AIR");
+            }
         }
         else //no button is pressed, just standing there or in jump sequence
         {
@@ -69,7 +73,7 @@ public class CapAnimator : MonoBehaviour
             {
                 if (isJumping == true)
                 {
-                    ani.SetTrigger("isJumping");
+                    //ani.SetTrigger("isJumping");
                     ani.SetBool("isIdle", false);
                     ani.SetBool("isRunning", false);
                     onGround = false;
@@ -80,18 +84,18 @@ public class CapAnimator : MonoBehaviour
                 }
                 if (runJump == true)
                 {
-                    ani.SetTrigger("runJump");
+                  //  ani.SetTrigger("runJump");
                     ani.SetBool("isIdle", false);
                     ani.SetBool("isRunning", false);
                     onGround = false;
-                    isJumping = true;
+                    isJumping = false;
                     isIdle = false;
                     isRunning = false;
-                    runJump = false;
+                    runJump = true;
                 }
             }
-            //if (contr.isGrounded == true)
-            else
+            if (contr.isGrounded == true)
+            //else
             {
                 isIdle = true;
                 onGround = true;
