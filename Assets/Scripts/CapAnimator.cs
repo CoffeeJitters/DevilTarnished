@@ -64,7 +64,6 @@ public class CapAnimator : MonoBehaviour
                 isIdle = false;
                 isRunning = false;
                 runJump = false;
-                Debug.Log("IM IN THE AIR");
             }
         }
         else //no button is pressed, just standing there or in jump sequence
