@@ -39,7 +39,6 @@ public class CapAnimator : MonoBehaviour
             isIdle = false;
             isRunning = true;
             runJump = false;
-            Debug.Log("IM RUNNING");
 
             if (Input.GetButton("Jump"))
             {
@@ -55,7 +54,7 @@ public class CapAnimator : MonoBehaviour
         }
         else if (Input.GetButton("Jump"))
         {
-            //ani.SetTrigger("isJumping");
+            ani.SetTrigger("isJumping");
             ani.SetBool("isIdle", false);
             ani.SetBool("isRunning", false);
             onGround = false;
@@ -101,16 +100,7 @@ public class CapAnimator : MonoBehaviour
                 isJumping = false;
                 ani.SetBool("isIdle", true);
                 ani.SetBool("isRunning", false);
-                Debug.Log("IM STANDING STILL");
             }
-            //isIdle = true;
-            //onGround = true;
-            // isRunning = false;
-            // runJump = false;
-            // isJumping = false;
-            // ani.SetBool("isIdle", true);
-            // ani.SetBool("isRunning", false);
-            //Debug.Log("IM STANDING STILL");
         }
     }
 }
