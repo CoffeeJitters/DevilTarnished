@@ -53,7 +53,7 @@ public class fixing : MonoBehaviour
             repair1 += repar;
             if(repair1 == 100)
             {
-                repairText1.text = "Fixed!!";
+                repairText1.text = "Locked";
             }
         }
         if (inEvent1 == true && !(Input.GetButton("Fire1")))
