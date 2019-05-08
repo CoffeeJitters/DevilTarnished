@@ -132,6 +132,7 @@ public class fixing : MonoBehaviour
  //       inEvent3 = false;
         repairText1.gameObject.SetActive(false);
         repairBar1.gameObject.SetActive(false);
+        filling1.gameObject.SetActive(false);
  /*       repairText2.gameObject.SetActive(false);
         repairBar2.gameObject.SetActive(false);
         repairText3.gameObject.SetActive(false);
