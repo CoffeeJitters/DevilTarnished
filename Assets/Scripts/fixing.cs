@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Fixing : MonoBehaviour
 {
-
+    public GameObject Doors;
     public Text repairText1;
     public Image repairBar1;
     public Image filling1;
@@ -71,6 +71,7 @@ public class Fixing : MonoBehaviour
             if (repair2 == 100)
             {
                 repairText2.text = "Opened!";
+                Doors.gameObject.SetActive(false);
             }
         }
         if (inEvent2 == true && !(Input.GetButton("Fire1")))
