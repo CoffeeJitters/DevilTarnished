@@ -8,6 +8,7 @@ TagManager:
   - Waypoint
   - repair1
   - repair2
+  - data
   layers:
   - Default
   - TransparentFX
