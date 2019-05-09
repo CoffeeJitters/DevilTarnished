@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Fixing : MonoBehaviour
 {
     public GameObject Doors;
+    public GameObject upperDoor;
+    public GameObject lowerDoor;
     public Text repairText1;
     public Image repairBar1;
     public Image filling1;
@@ -33,6 +35,8 @@ public class Fixing : MonoBehaviour
         repair2 = 0f;
   //      repair3 = 0f;
         maxrepair = 100f;
+        upperDoor.gameObject.SetActive(false);
+        lowerDoor.gameObject.SetActive(false);
         filling1.gameObject.SetActive(false);
         repairText1.gameObject.SetActive(false);
         repairBar1.gameObject.SetActive(false);
@@ -54,6 +58,8 @@ public class Fixing : MonoBehaviour
             if (repair1 == 100)
             {
                 repairText1.text = "Locked";
+                upperDoor.gameObject.SetActive(true);
+                lowerDoor.gameObject.SetActive(true);
             }
         }
         if (inEvent1 == true && !(Input.GetButton("Fire1")))
