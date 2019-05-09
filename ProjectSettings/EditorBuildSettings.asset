@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 5e3739b7c0b905f4f9c469da99cf33ca
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/lvl1.unity
     guid: 7f091d89af416e34aa5d25fd99a306c3
+  - enabled: 1
+    path: Assets/Scenes/SpaceShip.unity
+    guid: a729312ad8c3f03439360217414da077
   - enabled: 1
     path: Assets/Scenes/Menu Section.unity
     guid: 7a256afd0f7709748a8f8dcb42a4d52a
